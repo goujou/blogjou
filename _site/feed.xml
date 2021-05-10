@@ -1,17 +1,224 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blogjou/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blogjou/" rel="alternate" type="text/html" /><updated>2021-04-29T15:42:11+02:00</updated><id>http://localhost:4000/blogjou/feed.xml</id><title type="html">blogjou</title><subtitle>Don't you scho know blogjou? Here we go!</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blogjou/jekyll/update/2021/04/29/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-04-29T11:38:52+02:00</published><updated>2021-04-29T11:38:52+02:00</updated><id>http://localhost:4000/blogjou/jekyll/update/2021/04/29/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blogjou/jekyll/update/2021/04/29/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blogjou/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blogjou/" rel="alternate" type="text/html" /><updated>2021-05-10T23:09:04+02:00</updated><id>http://localhost:4000/blogjou/feed.xml</id><title type="html">blogjou</title><subtitle>You don't know blogjou? Here you go!</subtitle><entry><title type="html">Equifinality or why $x\neq 5$</title><link href="http://localhost:4000/blogjou/math_blog/2021/04/29/Equifinality.html" rel="alternate" type="text/html" title="Equifinality or why $x\neq 5$" /><published>2021-04-29T00:00:00+02:00</published><updated>2021-04-29T00:00:00+02:00</updated><id>http://localhost:4000/blogjou/math_blog/2021/04/29/Equifinality</id><content type="html" xml:base="http://localhost:4000/blogjou/math_blog/2021/04/29/Equifinality.html">&lt;p&gt;The idea of symmetry leads naturally to the concept of entropy and together they can help mitigate or even solve the problem of equifinality in very general situations.&lt;/p&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;p&gt;Suppose we aim at finding a definite value for $X&amp;gt;0$ such that&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+    \nonumber
+    \frac{X}{X}=1.
+\end{equation}&lt;/p&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.der-postillon.com/2012/08/mathemuffel-erleichtert-wert-von-x-ein.html&quot;&gt;According to the Max Planck Institute for Mathematics&lt;/a&gt; the one and only choice is $x=5$.
+In the following I will instead make the case for $X=1$ and show how the latter can help solve the problem of equifinality in the realm of shades associated to the problem of model selection.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Let’s first consider a slightly more general question:
+How to choose $X&amp;gt;0$ and $Y&amp;gt;0$ if&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;\begin{equation}
+    \label{eqn:XYk}
+    X\cdot Y=k
+\end{equation}&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;for some given $k&amp;gt;0\,$?
+Again, any pair of positive real numbers would solve the equation, nevertheless the most natural choice to me is&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    X=Y=\sqrt{k}.
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;The feeling that this is the natural choice comes from a love for symmetry.
+No other pair $(X, Y)$ offers the same perfect level of symmetry in $X$ and $Y$.
+While in this example the perfect symmetry solution is obvious, it is less obvious how we can find the most symmetric pair $(X, Y)$ such that&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \label{eqn:XYsquaredk}
+    X\cdot Y^2=k.
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;In order to solve this problem, we need a measure for symmetry to justify why&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    (X, Y) = (\sqrt{k}, \sqrt{k})
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;is more symmetric than, for instance,&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    (X, Y) = \left(2\,\sqrt{k}, \frac{1}{2}\,\sqrt{k}\right),
+\end{equation}
+which would also solve Eq. \eqref{eqn:XYk}.&lt;/p&gt;
+
+&lt;h3 id=&quot;symmetry--entropy&quot;&gt;Symmetry = Entropy&lt;/h3&gt;
+
+&lt;p&gt;Imagine, we have a total amount of $M&amp;gt;0$ available to be distributed randomly to $X$ and $Y$.
+We can write this as&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    X = p \cdot M\quad\text{and}\quad Y=q \cdot M
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;for some $p,q \geq 0$ such that $q=1-p$.
+Now we define our measure of symmetry of $(X, Y$) as&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    \mathbb{S}(X, Y) := \mathbb{H}(p) := -\,(p \log p + q \log q) = -p\log p -(1-p)\log(1-p).
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;We immediately recognize this symmetry function as the entropy of a binomial random variable.
+Consequently, maximum symmetry corresponds to maximum entropy and we can interpret the most symmetric pair $(X, Y)$ also as the most honest choice given our state of knowledge about $X$ and $Y$.
+In order to find the pair $(X, Y$) that solves Eq. \eqref{eqn:XYk} with highest symmetry/entropy, we need find $p$ and $M$ to maximize&lt;/p&gt;
+
+&lt;p&gt;\begin{equation} 
+    \nonumber
+    \mathcal{L}(p, M, \lambda) := \mathbb{H}(p) + \lambda\,g(p, M).
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Here $\lambda$ is a Lagrange multiplier and&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \label{eqn:g1}
+    g(p, M) := p\,M \cdot (1-p)\, M - k
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;makes sure that&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    X \cdot Y = p\,M \cdot (1-p)\,M = k
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;and thus&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    (X, Y) = (p\,M, (1-p)\,M)
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;is the most symmetric and in turn most uninformed pair of positive real numbers that solve Eq. \eqref{eqn:XYk}.
+In the present situation, we do not need to solve the equation system too formally.
+Naturally, we hope to have $p=1/2$ as a possible solution, because it would lead to the highest entropy even in an unrestricted situation.
+We are lucky here, the first naive choice of $p=1/2$ solves Eq. \eqref{eqn:g1} with $M=2\,\sqrt{k}$ and we are done.
+The most symmetric and most uninformed information to Eq. \eqref{eqn:XYk} is associated to $p=1/2$ and is&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    (X, Y) = (p\,M, (1-p)\,M) = (\sqrt{k}, \sqrt{k}).
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;The already mentioned alternative solution of Eq. \eqref{eqn:XYk}, given by&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    (X, Y) = \left(2\,\sqrt{k}, \frac{1}{2}\,\sqrt{k}\right),
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;corresponds to $p=\frac{4}{5}$ and&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    \mathbb{S}\left(2\,\sqrt{k}, \frac{1}{2}\,\sqrt{k}\right)
+    = \mathbb{H}\left(\frac{4}{5}\right) 
+    &amp;lt; \mathbb{H}\left(\frac{1}{2}\right)
+    = \mathbb{S}(\sqrt{k}, \sqrt{k}).
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;This means that this alternative solution, and this holds for all solutions to Eq. \eqref{eqn:XYk} except for the one corresponding to $p=1/2$, is not maximally symmetric and does not have maximum entropy.
+Consequently, all alternative solutions have some information encoded that we, purely from the given task of solving Eq. \eqref{eqn:XYk} for $X$ and $Y$, are actually not provided with.
+They contain some unintended guesswork from our side.
+The one solution that contains only the avaiable information and hence is the most honest and fairest choice, is $X=Y=\sqrt{k}$ and corresponds to $p=1/2$.&lt;/p&gt;
+
+&lt;p&gt;What about \eqref{eqn:XYsquaredk} now? Well, let us be naive again and try $p=1/2$.
+We have to solve&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    \frac{1}{2}\,M\,\frac{1}{4}\,M^{2} = k,
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;which leads us to $M^{3} = 8\,k$, problem solved with $p=(1-p)=1/2$, so still no symmetry break between $X$ and $Y$.&lt;/p&gt;
+
+&lt;p&gt;A classical collinearity problem could lead to dependencies such as&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    Y = a\,X+b,
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;or equaivalently&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    g(X, Y) =  a\,X + b - Y.
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Let us test our prefered maximal symmetry solution $X=Y=1/2\,M$ against $g(X, Y)=0$.
+We see&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    0 = \frac{1}{2}\,a\,M + b - \frac{1}{2}\,M = \frac{1}{2}\,M\,(a-1) + b
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \nonumber
+    M = \frac{2\,b}{1-a}.
+\end{equation}&lt;/p&gt;
+
+&lt;!--
+### Symmetry = Entropy
+
+Imagine, we have a total amount of $M&gt;0$ available to be distributed randomly to $X$ and $Y$.
+We can write this as
+
+\begin{equation}
+    \nonumber
+    X = p_1 \cdot M\quad\text{and}\quad Y=p_2 \cdot M
+\end{equation}
+
+for some $p_i \geq 0$ such that $\sum_i p_i=1$.
+Now we define our measure of symmetry of $(X, Y$) as
+
+\begin{equation}
+    \nonumber
+    \mathbb{S}(X, Y) := \mathbb{H}(\vec{p}) := -\sum_i p_i \cdot \log p_i,\quad \vec{p} = (p_i)_{i}.
+\end{equation}
+
+We immediately recognize this symmetry function as the entropy of a binomial random variable.
+Consequently, maximum symmetry corresponds to maximum entropy and we can interpret the most symmetric pair $(X, Y)$ also as the most honest choice given our state of knowledge about $X$ and $Y$.
+In order to find the pair $(X, Y$) that solves Eq. \eqref{eqn:XYk} with highest symmetry/entropy, we need find $\vec{p}$ such that
+
+\begin{equation} 
+    \nonumber
+    \mathcal{L}(\vec{p}, M, \lambda) := \mathbb{H}(\vec{p}) + \lambda\,g(\vec{p}, M),
+\end{equation}
+
+becomes maximum.
+Here $\lambda$ is a Lagrange multiplier and
+
+\begin{equation}
+    \nonumber
+    g(\vec{p}, M) := p_1\,M \cdot p_2\, M - k
+\end{equation}
+
+makes sure that
+
+\begin{equation}
+    \nonumber
+    X \cdot Y = p_1\,M \cdot p_2\,M = k
+\end{equation}
+
+and thus
+
+\begin{equation}
+    \nonumber
+    (X, Y) = (p_1\,M, p_2\,M)
+\end{equation}
+
+is the most symmetric and in turn most uninformed pair of positive real numbers that solve Eq. \eqref{eqn:XYk}.
+--&gt;</content><author><name>goujou</name></author><category term="math_blog" /><summary type="html">The idea of symmetry leads naturally to the concept of entropy and together they can help mitigate or even solve the problem of equifinality in very general situations.</summary></entry><entry><title type="html">Frauen sind den Kastanien gegensätzlich…</title><link href="http://localhost:4000/blogjou/book_blog/2019/11/03/Frauen_Kastanien.html" rel="alternate" type="text/html" title="Frauen sind den Kastanien gegensätzlich…" /><published>2019-11-03T00:00:00+01:00</published><updated>2019-11-03T00:00:00+01:00</updated><id>http://localhost:4000/blogjou/book_blog/2019/11/03/Frauen_Kastanien</id><content type="html" xml:base="http://localhost:4000/blogjou/book_blog/2019/11/03/Frauen_Kastanien.html">&lt;p&gt;Frauen sind den Kastanien gegensätzlich.
+Sie sind außen weich und innen stachelig.&lt;/p&gt;</content><author><name>goujou</name></author><category term="book_blog" /><summary type="html">Frauen sind den Kastanien gegensätzlich. Sie sind außen weich und innen stachelig.</summary></entry><entry><title type="html">Ich weiß wohl, wie sehr es einen Mann…</title><link href="http://localhost:4000/blogjou/book_blog/2019/11/03/Ich-weiss-wohl.html" rel="alternate" type="text/html" title="Ich weiß wohl, wie sehr es einen Mann…" /><published>2019-11-03T00:00:00+01:00</published><updated>2019-11-03T00:00:00+01:00</updated><id>http://localhost:4000/blogjou/book_blog/2019/11/03/Ich%20weiss-wohl</id><content type="html" xml:base="http://localhost:4000/blogjou/book_blog/2019/11/03/Ich-weiss-wohl.html">&lt;p&gt;Ich weiß wohl, wie sehr es einen Mann, wenn er Leben genommen hat, danach verlangt, welches zu geben.&lt;/p&gt;</content><author><name>goujou</name></author><category term="book_blog" /><summary type="html">Ich weiß wohl, wie sehr es einen Mann, wenn er Leben genommen hat, danach verlangt, welches zu geben.</summary></entry><entry><title type="html">Aber in Wahrheit hat das Mannesalter…</title><link href="http://localhost:4000/blogjou/book_blog/2019/11/03/Mannesalter.html" rel="alternate" type="text/html" title="Aber in Wahrheit hat das Mannesalter…" /><published>2019-11-03T00:00:00+01:00</published><updated>2019-11-03T00:00:00+01:00</updated><id>http://localhost:4000/blogjou/book_blog/2019/11/03/Mannesalter</id><content type="html" xml:base="http://localhost:4000/blogjou/book_blog/2019/11/03/Mannesalter.html">&lt;p&gt;Aber in Wahrheit hat das Mannesalter mit dem Horizont gemein, daß es in dem Maße zurückweicht, wie man sich ihm nähert.&lt;/p&gt;</content><author><name>goujou</name></author><category term="book_blog" /><summary type="html">Aber in Wahrheit hat das Mannesalter mit dem Horizont gemein, daß es in dem Maße zurückweicht, wie man sich ihm nähert.</summary></entry><entry><title type="html">Wenn nichts gewisser ist als der Tod…</title><link href="http://localhost:4000/blogjou/book_blog/2019/11/03/Wenn-nichts-gewisser-ist.html" rel="alternate" type="text/html" title="Wenn nichts gewisser ist als der Tod…" /><published>2019-11-03T00:00:00+01:00</published><updated>2019-11-03T00:00:00+01:00</updated><id>http://localhost:4000/blogjou/book_blog/2019/11/03/Wenn-nichts-gewisser-ist</id><content type="html" xml:base="http://localhost:4000/blogjou/book_blog/2019/11/03/Wenn-nichts-gewisser-ist.html">&lt;p&gt;Wenn nichts gewisser ist als der Tod, so ist nichts ungewisser als sein Zeitpunkt.&lt;/p&gt;</content><author><name>goujou</name></author><category term="book_blog" /><summary type="html">Wenn nichts gewisser ist als der Tod, so ist nichts ungewisser als sein Zeitpunkt.</summary></entry><entry><title type="html">Es muss nur einer aus seinem Loch kriechen…</title><link href="http://localhost:4000/blogjou/book_blog/2019/10/26/Es-muss-nur-einer.html" rel="alternate" type="text/html" title="Es muss nur einer aus seinem Loch kriechen…" /><published>2019-10-26T00:00:00+02:00</published><updated>2019-10-26T00:00:00+02:00</updated><id>http://localhost:4000/blogjou/book_blog/2019/10/26/Es-muss-nur-einer</id><content type="html" xml:base="http://localhost:4000/blogjou/book_blog/2019/10/26/Es-muss-nur-einer.html">&lt;p&gt;Es muss nur einer aus seinem Loch kriechen und zu reisen beginnen, gleich lacht ihm die Welt in unvergleichlicher Vielfalt!&lt;/p&gt;</content><author><name>goujou</name></author><category term="book_blog" /><summary type="html">Es muss nur einer aus seinem Loch kriechen und zu reisen beginnen, gleich lacht ihm die Welt in unvergleichlicher Vielfalt!</summary></entry></feed>

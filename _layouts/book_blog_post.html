@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% assign book = site.data.books_db[page.book_id] %}
+<table>
+    <tr> 
+        <td width="120px"><img src="{{ site.baseurl }}/assets/images/thumbnails/{{ book.thumbnail }}"></td>
+        <td>
+            <h1>{{ book.author }}</h1>
+            <h2>{{ book.title }}</h2>
+            {{ page.page }}
+        </td>
+    </tr>
+</table>
+    
+<span class="post-meta">{{ post.date | date_to_string }}</span>
+<h3>
+  <a class="post-link" href="{{ post.url | relative_url }}">
+    {{ post.title | escape }}
+  </a>
+</h3>
+
+<hr>
+<br>
+
+{{ content }}
+
+<hr>

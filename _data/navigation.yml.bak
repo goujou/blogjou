@@ -1,0 +1,5 @@
+- name: blogjou
+  link: /
+
+- name: Science Blog
+  link: /science_blog.html

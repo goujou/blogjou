@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<h1>{{ site.title }}</h1>
+It seems like at least the European CORONA crisis is coming to an end, so I need another socially accepted excuse for never being around anywhere.
+A blog!
+
+<br><br>
+
+{% for post in site.posts %}
+  <li>
+    <span class="post-meta">{{ post.date | date_to_string }}</span>
+    <h3>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h3>
+    {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+    {%- endif -%}
+  </li>
+{% endfor %}
