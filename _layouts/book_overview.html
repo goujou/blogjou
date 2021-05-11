@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-{% assign bas = site.book_authors | where: "name", page.author %}
-{% assign book_author = bas[0] %}
+{% assign book_author = site.book_authors | where: "name", page.author | first %}
 <table>
     <tr>
     <td width="120px">

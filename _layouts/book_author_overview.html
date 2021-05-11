@@ -8,8 +8,7 @@ layout: default
 
 <table>
     {% for post in category_posts %}
-        {% assign bs = author_books | where: "book_id", post.book_id %}
-        {% assign book = bs[0] %}
+        {% assign book = author_books | where: "book_id", post.book_id % | first}
         {% if book.author == page.name %}
             <tr> 
                 <td width="120px">
