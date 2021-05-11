@@ -28,7 +28,7 @@ twitter_username:
 github_username: goujou
 
 # Build settings
-#theme: jekyll-theme-tactile
+# theme: jekyll-theme-tactile
 theme: minima
 #plugins:
 #  - jekyll-feed
@@ -55,3 +55,24 @@ exclude:
     - _code/
 
 show_excerpts: True
+
+collections:
+  books:
+    output: true
+  book_authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "books"
+    values:
+      layout: "book_overview"
+      category: "book_blog"
+  - scope:
+      path: ""
+      type: "book_authors"
+    values:
+      layout: "book_author_overview"
+      category: "book_blog"
+

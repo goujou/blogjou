@@ -5,13 +5,18 @@ layout: default
 {{ page.intro }}
 
 <br><br>
-
 {% assign category_posts = site.posts | where: "category", page.category %}
+
 <table>
     {% for post in category_posts %}
-        {% assign book = site.data.books_db[post.book_id] %}
+        {% assign bs = site.books | where: "book_id", post.book_id %}
+        {% assign book = bs[0] %}
         <tr> 
-            <td width="120px"><img src="{{ site.baseurl }}/assets/images/thumbnails/{{ book.thumbnail }}"></td>
+            <td width="120px">
+                <a href="{{ site.baseurl}}{{ book.url }}">
+                    <img src="{{ site.baseurl }}/assets/images/thumbnails/{{ book.thumbnail }}">
+                </a>
+            </td>
             <td>
                 <span class="post-meta">{{ post.date | date_to_string }}</span>
                 <h3>

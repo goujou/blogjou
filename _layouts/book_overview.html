@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% assign bas = site.book_authors | where: "name", page.author %}
+{% assign book_author = bas[0] %}
+<table>
+    <tr>
+    <td width="120px">
+        <img src="{{ site.baseurl }}/assets/images/thumbnails/{{ page.thumbnail }}">
+    </td>
+    <td>
+        <h1>{{ page.title }}</h1>
+        <h2><a href="{{ site.baseurl }}{{ book_author.url }}">{{ page.author }}</a></h2>
+    </td>
+    </tr>
+</table>
+
+<br>
+{% assign category_posts = site.posts | where: "book_id", page.book_id %}
+{% for post in category_posts  %}
+    <span class="post-meta">{{ post.date | date_to_string }}</span>
+    <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+        </a>
+    </h3>
+    {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+    {%- endif -%}
+{% endfor %}
+
