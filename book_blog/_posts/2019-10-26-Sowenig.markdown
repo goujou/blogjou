@@ -1,0 +1,10 @@
+---
+layout: book_blog_post
+title: "So wenig ich sicher war..."
+author: goujou
+date:   2019-10-26
+category: book_blog
+book_id: MerleInUnseren
+page: p. 434
+---
+Sowenig ich sicher war, sie eines Tages gewinnen zu können, so wenig wollte ich Gefahr laufen, sie gleich hier zu verlieren.

@@ -8,7 +8,7 @@ layout: default
 
 <table>
     {% for post in category_posts %}
-        {% assign book = author_books | where: "book_id", post.book_id % | first}
+        {% assign book = author_books | where: "book_id", post.book_id | first %}
         {% if book.author == page.name %}
             <tr> 
                 <td width="120px">
@@ -23,12 +23,13 @@ layout: default
                             {{ post.title | escape }}
                       </a>
                     </h3>
-                    {%- if site.show_excerpts -%}
+                    {% if site.show_excerpts %}
                         {{ post.excerpt }}
-                    {%- endif -%}
+                    {% endif %}
                 </td>
             </tr>
         {% endif %}
     {% endfor %}
 </table>
+
 

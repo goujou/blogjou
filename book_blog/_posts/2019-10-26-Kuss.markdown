@@ -1,0 +1,10 @@
+---
+layout: book_blog_post
+title: "Der Kuss ist wie ein kleines Tierchen..."
+author: goujou
+date:   2019-10-26
+category: book_blog
+book_id: MerleInUnseren
+page: p. 321
+---
+Der Kuss ist wie ein kleines Tierchen, das überall herumkrabbelt.

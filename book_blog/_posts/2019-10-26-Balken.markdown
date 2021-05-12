@@ -1,0 +1,10 @@
+---
+layout: book_blog_post
+title: "Unseren Balken vergessend..."
+author: goujou
+date:   2019-10-26
+category: book_blog
+book_id: MerleInUnseren
+page: p. 72
+---
+Unseren Balken vergessend, betrachten wir genüßlich den Splitter im Auge des Bruders.
