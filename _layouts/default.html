@@ -23,7 +23,7 @@
         
           {% for page in (1..paginator.total_pages) %}
             {% if page == paginator.page %}
-              <em>{{ page }}</em>
+              <b>{{ page }}</b>
             {% elsif page == 1 %}
               <a href="/">{{ page }}</a>
             {% else %}
