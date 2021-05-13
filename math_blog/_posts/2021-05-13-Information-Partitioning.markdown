@@ -106,5 +106,7 @@ and from
 
 we can easily infer the unique components.
 
+## Conclusions
 
+If we are given a dataset consisting of two source variables and one target variable that is rich enough to enable us to compute the joint probability distribution $p(x_{s_1},x_{s2},x_{tar})$, then we can identify how much each source variable explains the target variable just by itself, only in conjuction with the other source variable, and redundantly together with the other source variable.
 
