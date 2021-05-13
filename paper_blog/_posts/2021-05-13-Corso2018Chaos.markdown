@@ -1,0 +1,52 @@
+---
+layout: paper_blog_post
+title: "Quantifying entropy using recurrence matrix microstates"
+date: 2021-05-13
+doi: 10.1063/1.5042026
+author:
+        - Gilberto Corso
+        - Thiago de Lima Prato
+        - Gustav Zampier dos Santos Lima
+        - Jürgen Kurths
+        - Sergio Roberto Lopes
+---
+The authors introduce a complexity measure for nonlinear time series data that bases on the reccurence plot (RP) and the Shannon information entropy of its microstates.
+This complexity measure is easy and efficient to compute and approximates the maximum Lyapunov exponent of the data.
+It can also be used to discriminate between deterministic, chaotic, and stochastic data.
+
+For $x_i\in\R^d$, $i=1,\ldots,K$, the RP is a matrix $\tens{R}=(R_{ij})_{ij}$ given by
+
+\begin{equation}
+    \nonumber
+    R_{ij} =
+    \begin{cases} 
+        1,\, & \|x_i-x_j\| \lt \varepsilon,\newline
+        0,\, & \|x_i-x_j\| \geq \varepsilon,
+    \end{cases}
+\end{equation}
+where $\varepsilon>0$ is called *vicinity threshold*.
+Diagonal structures of $1$s parallel to the main diagonal display recurrence patters and are signs for determinism.
+iThe idea here is now to fix a small natural number $N$, typically $N\in\\{1,2,3,4\\}$, and look at ($N\times N)$-submatrices of $\tens{R}$.
+A fixed number $\bar{N}$ of such structures is selected randomly.
+The total number of possible microstates is $N^\ast=2^{(N^2)}$ and with $P_i=n_i/\bar{N}$, where $n_i$ is the number of occurences of the specific microstate $i$, we get the entropy
+
+\begin{equation}
+    \nonumber
+    S(N^\ast) = -\suml_{i=1}^{N^\ast} P_i\,\log P_i.
+\end{equation}
+
+Although $N^\ast$ grows quickly as a function of $N$, usually just a small number of microstates are effectively populated.
+So, the effective set of microstates needed to compute adequately the entropy can be populated by just $\bar{N}$ random samples obtained from the recurrence matrix, and a fast convergence is expected.
+In general, we found that usually $\bar{N} \ll  N^\ast$ for $N > 3$ such
+that $\bar{N} \sim 10,000$ is enough.
+This makes the method extremely fast even for moderate values of microstate sizes $N$.
+This observation also points out that a microstate size $N = 4$ is sufficient for many dynamical and stochastic systems.
+
+The maximum entropy occurs when all microstates are equally likely, i.e. $P_i=1/N^\ast$, and is given by
+
+\begin{equation}
+    \nonumber
+    S(N^\ast) = N^2\,\log2 .
+\end{equation}
+
+The closer $S(N)$ is to $S(N^\ast)$, the more stochastic are the data.

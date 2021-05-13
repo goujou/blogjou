@@ -1,0 +1,19 @@
+---
+layout: paper_blog_post
+title: "Calculating the effective permeability of sandstone with multiscale lattice Boltzmann/finite element simulations"
+date: 2021-05-13
+doi: 10.1007/s11440-006-0018-4
+author:
+        - Joshua A. White
+        - Ronaldo I. Borja
+        - Joanne T. Fredrich
+---
+When scaling up from microscale to macroscale, often one is not interested in a single global value such as a mean only, but rather in the variation of a continuum variable.
+The authors define a representative elementary volume (REV) at the microstate-macrostate boundary.
+Inside the REVs, a lattice Boltzmann (LB) method is used to compute the microdynamics.
+The result per REV is then used on global scale to solve global dynamics by a finite elements (FE) method.
+
+I see a close link to [Dynamic upscaling of decomposition kinetics for carbon cycling models](http://doi.org/10.5194/gmd-13-1399-2020).
+In the referenced paper, Eq. (16) describes the macroscale dynamics corresponding to FE.
+On macroscale the parameters $\sigma^2_{C_s}$, $\sigma^2\_{C_b}$, $C'_s C'_b$, etc. are used and those can be obtained from microscale dynamics corresponding to LB.
+

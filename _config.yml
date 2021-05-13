@@ -30,8 +30,19 @@ github_username: goujou
 # Build settings
 # theme: jekyll-theme-tactile
 theme: minima
-#plugins:
+
+
+plugins:
+  - jekyll-paginate
 #  - jekyll-feed
+
+feed:
+  disable: true
+
+incremental: true
+
+paginate: 5
+paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -75,4 +86,20 @@ defaults:
     values:
       layout: "book_author_overview"
       category: "book_blog"
+  - scope:
+      path: "book_blog/*"
+    values:
+      category: "book_blog"
+  - scope:
+      path: "joy_blog/*"
+    values:
+      category: "joy_blog"
+  - scope:
+      path: "math_blog/*"
+    values:
+      category: "math_blog"
+  - scope:
+      path: "paper_blog/*"
+    values:
+      category: "paper_blog"
 
