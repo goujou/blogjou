@@ -39,7 +39,7 @@ plugins:
 feed:
   disable: true
 
-incremental: true
+#incremental: true
 
 paginate: 5
 paginate_path: "/page:num/"

@@ -5,7 +5,7 @@ author: goujou
 date:   2021-05-13
 ---
 I would like to explain how the partitioning of mutual information into synergistic, unique, and redundant components works.
-This is a short summary of Section 2 in[Temporal information partitioning: Characterizing synergy, uniqueness, and redundancy in interacting environmental variables](http://doi.org/10.1002/2016WR020216).
+This is a short summary of Section 2 in [Temporal information partitioning: Characterizing synergy, uniqueness, and redundancy in interacting environmental variables](http://doi.org/10.1002/2016WR020216).
 
 Assume we have two variables $X_{s1}$ and $X_{s2}$ as sources and one target variable $X_{tar}$.
 The source variables carry information about the target variable.

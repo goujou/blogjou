@@ -4,6 +4,8 @@ title: Equifinality or why $x\neq 5$
 author: goujou
 date:   2021-04-29
 ---
+** THIS ARTICLE IS A STUB **
+
 The idea of symmetry leads naturally to the concept of entropy and together they can help mitigate or even solve the problem of equifinality in very general situations.
 
 Suppose we aim at finding a definite value for $X>0$ such that
