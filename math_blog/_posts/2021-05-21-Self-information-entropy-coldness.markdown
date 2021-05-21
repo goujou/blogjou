@@ -3,7 +3,6 @@ layout: post
 title: From self-information to thermodynamic entropy
 author: goujou
 date:   2021-05-21
-regenerate: true
 ---
 The goal of this post is to introduce Shannon entropy as an information theory concept with its origin in self-information of events, and then linking it to the thermodynamic concept of entropy through maximization.
 
@@ -264,7 +263,7 @@ This leads to
     S = -k_B\,\sum_i p\,\log p = -k_B\,\Omega\,\frac{1}{\Omega}\,\log \frac{1}{\Omega} = k_B\,\log\Omega,
 \end{equation}
 
-where $\Omega$ is the total number of microstates that represent the macrostate of thermodynamical equilibrium.
+where $\Omega$ is the total number of microstates that represent the macrostate of thermodynamic equilibrium.
 This relation is called [the fundamental assumption of statistical thermodynamics or the fundamental postulate in statistical mechanics](https://en.wikipedia.org/wiki/Entropy#Statistical_mechanics).
 
 
