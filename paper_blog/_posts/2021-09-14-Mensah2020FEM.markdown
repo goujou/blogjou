@@ -79,11 +79,12 @@ Similarly, multi-layered Scots pine stands with understory layer of Norway spruc
 > Species-specific sizes and crown allometry of dominant (larger) trees show greater light interception and light-use efficiency than for smaller trees in heterogenous stands (Pretzsch, 2009; Gspaltl et al., 2013; Binkley et al., 2013a).
 
 ## Personal conclusions
-- We can use data from NFI (Table 1) for to initialize stands and to compare later stages of our stands with.
-- We can use provided formulas to compute stand characteristics of our modeled stands:
-    - species composition: Eq. (1)
-    - species dominance: Eqs. (2) and (3)
-    - tree size heterogeneity: Eqs. (4)--(6)
-
+We can use data from NFI (Table 1) for to initialize stands and to compare later stages of our stands with.
 In any case we would need to come up with temperature sums and humidities for our stands.
+
+We can use provided formulas to compute stand characteristics of our modeled stands:
+- species composition: Eq. (1)
+- species dominance: Eqs. (2) and (3)
+- tree size heterogeneity: Eqs. (4)--(6)
+
 
