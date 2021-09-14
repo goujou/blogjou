@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "I was suprised to be reminded..."
 author: goujou
 date:   2019-11-12

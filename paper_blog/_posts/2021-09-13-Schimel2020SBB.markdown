@@ -1,0 +1,80 @@
+---
+title: "How to avoid having your manuscript rejected: Perspectives from the Editors-in-Chief of Soil Biology and Biogeochemistry"
+date: 2021-09-13
+doi: 10.1016/j.soilbio.2020.107823
+author:
+    - Joshua Schimel
+    - Karl Ritz
+---
+
+## 1. Introduction
+
+- papers are for the readers, not the authors (which in fact is not true): do readers gain novel insights and new knowledge?
+
+### Checklist
+
+- journal's target audience
+- methods and analyses support interpretations and conclusions
+
+- conclusions well-grounded in the data and conclusive
+- speculation is clearly identified as such
+- clear writing
+
+### 2. SBB's criteria are based on our aims and scope
+
+> Soil Biology & Biochemistry publishes scientific research articles of
+international significance which describe and explain fundamental
+biological and biochemical features and processes occurring in soil
+systems.
+
+1. Audience
+    - what does the reader already know: leave it out and take it for granted
+2. Questions
+    - no case studies, only broadly relevant questions
+3. Focus and scale
+    - drivers of processes of soil biochemistry, not just soil as a "brown box"
+4. Novelty and importance
+    - well-studied processes in new circumstances or with new methods
+    - incremental science: larger synthesis, new insights, deeper understanding
+    - show *why* and *how* the work is novel
+5.  Language
+    - English: AE tends to shorter sentences (laconic authors such as Mark Twain and Ernest Hemmingway), BE tends to longer and more elaborate prose (Jane Austen and Thomas Hardy)
+
+### 3. An Editor's approach: How we apply these standards when we get a manuscript
+
+- first check for: international relevance, fundemantality, soil systems
+- language check: title, highlights, opening paragraphs
+- **first impressions matter**
+- first check happens in short blocks of free time, if there are problems the paper is put on the backburner
+
+#### Common issues that lead to a "Desk Reject"
+
+1. Telling the wrong story
+    - message must meet the journal's scope
+    - opening paragraph defines a problem to solve
+    - conclusions will come back to this problem
+    - opening problem defines target audience
+    - **for SBB: be general here!**
+
+2. No real question or hypothesis
+    - define specific objectives at end of introduction: **What question will you answer?**
+    - identify a knowledge gap
+    - be as precise as possible
+
+3. Poor presentation
+    - read the *Guide to Authors*
+    - use little color, good palettes, large font sizes, line numbers
+
+4. Weak conclusions
+    - show what the work has contributed and has it has advanced understanding
+    - avoid "more research is needed...": point out what you *have* done, not what you have *not* done
+    - discuss limitations earlier
+    - be precise, *what* are the exact implications?
+    - **"Show, don't tell".**
+    - first and last words are most powerful
+
+### 4. Conclusions
+- check journal's scope
+- read as an editor/reviewer/reader
+- **ironically, typo "concecus" in last words of the paper**
+

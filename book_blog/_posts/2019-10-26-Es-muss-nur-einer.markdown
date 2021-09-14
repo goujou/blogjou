@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "Es muss nur einer aus seinem Loch kriechen..."
 author: goujou
 date:   2019-10-26

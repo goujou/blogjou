@@ -1,0 +1,12 @@
+---
+title: "Ira \"Gus\" Hunt, chief technology officer..."
+author: goujou
+date:   2019-11-12
+category: book_blog
+book_id: SnowdenRecord
+page: p. 248
+---
+Ira "Gus" Hunt, chief technology officer of the CIA in front of US journalists (2013):
+
+> Technology is moving faster than government or law can keep up.
+It's moving faster...than you can keep up: you should be asking of what are your rights and who owns your data.

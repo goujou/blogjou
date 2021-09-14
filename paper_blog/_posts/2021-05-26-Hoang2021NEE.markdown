@@ -1,0 +1,52 @@
+---
+title: "Mapping the deforestation footprint of nations reveals growing threat to tropical forests"
+date: 2021-05-26
+doi: 10.1038/s41559-021-01417-z
+author:
+        - Nguyen Tien Hoang
+        - Keiichiro Kanemoto
+---
+The authors provide a fine-scale representation of spatial patterns of deforestation associated with international trade.
+They find that many developed countries have increased 
+the deforestation embodied in their imports
+Consumption patterns of G7 countries drive an average loss of 3.9 trees per person per year. 
+The results emphasize the need to reform zero-deforestation policies through strong transnational efforts and by
+improving supply chain transparency, public–private engagement and financial support for the tropics.
+
+### Current situation
+- deforestation is permanently increasing
+    - driven by international trade
+    - negative impact on global climate and biodiversity
+- many developed/developing countries with net domestic forest gain but imported deforestation
+- spatial distribution of deforestation embodied in imports not well known
+
+### Questions
+- Which deforestation hotspots are driven by which consumer countries?
+- Which forest ecosystems, tropical rain forests or other forest types are the top targets of global supply chains?
+
+### Results
+- using a global supply chain model, high resolution maps- of deforestation footprints of various nations were built
+    - Germany: cocoa in Ivory Coast and Ghana, coffee in Vietnam
+    - Japan: cotton and sesame seed in Tanzania
+    - China: timber and rubber in Indochina
+    - USA: Cambodia, Madagascar, Liberia, Central America, Chile, Amazon through timber, rubber, beef, fruits, nuts
+- many developed/developing countries increase their imported damage faster than their domestic mitigation
+- tree loss per capita and year
+    - G7: 4
+    - USA: 8
+    - Sweden 22: biomass for energy supply
+- different usage requires different tree types with different impacts on biodiversity
+- tropical: USA, Germany, Singapore, China, Russia have increasing net imports from all biomes, but rapidly increasing from tropics
+- tropical and mangrove rainforest deforestation increased GDPs per capita in developed countries, trade patterns remained the same, leading to even more deforestation (except for Norway and Sweden)
+
+### Discussion
+- maps can help countries to improve their deforestation footprint and its ecological impact (climate and biodiversity)
+- to maintain net forest gains, G7 and China and India outsourced their deforestation with increasing tendency
+- no subnational analysis included
+- maps can be used by each country to think about their personal consumptional behavior and supply chains
+- international strategies, collaboration of private and public sector, financial support for exporting countries, and transparent supply chains necessary
+
+## My comments
+The 22 trees for Sweden are shocking given that only recently I watched a documentary praising Sweden for their smooth and successful transition to renewable energies.
+
+

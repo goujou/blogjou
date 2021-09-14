@@ -1,5 +1,4 @@
 ---
-layout: paper_blog_post
 title: "Carbon cycle in mature and regrowth forests globally"
 date: 2021-05-20
 doi: 10.1088/1748-9326/abed01
@@ -41,7 +40,7 @@ The majority of flux variables, together with most live biomass pools, increased
     - mean stocks: tropical > temperate > boreal
     - max. stocks in temperate biomes
 - young forests:
-    - fluxes and stocks increase with $log_{10}$ of age
+    - fluxes and stocks increase with $\log_{10}$ of age
     - fluxes: tropical > temperate > boreal
     - NEP: temperate > boreal
     

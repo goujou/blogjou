@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "Der Kuss ist wie ein kleines Tierchen..."
 author: goujou
 date:   2019-10-26

@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "Ich weiß wohl, wie sehr es einen Mann..."
 author: goujou
 date:   2019-11-03

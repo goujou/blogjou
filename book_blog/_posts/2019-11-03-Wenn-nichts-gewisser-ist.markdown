@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "Wenn nichts gewisser ist als der Tod..."
 author: goujou
 date:   2019-11-03

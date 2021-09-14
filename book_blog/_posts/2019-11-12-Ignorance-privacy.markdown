@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "There is simply no way to ignore privacy..."
 author: goujou
 date:   2019-11-12

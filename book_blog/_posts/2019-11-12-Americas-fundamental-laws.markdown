@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "America's fundamental laws..."
 author: goujou
 date:   2019-11-12

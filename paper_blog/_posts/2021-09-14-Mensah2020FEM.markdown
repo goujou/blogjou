@@ -1,0 +1,89 @@
+---
+title: "Using heterogeneity indices to adjust basal area – Leaf area index
+relationship in managed coniferous stands"
+date: 2021-09-14
+doi: 10.1016/j.foreco.2019.117699
+author:
+    - Alex Appiah Mensah
+    - Hans Petersson
+    - Svetlana Saareva
+    - Martin Goude
+    - Emma Holmström
+---
+## Abstract (excerpt)
+> The structure of contemporary managed forests is complex and deviates from  **experimental forests which are usually even-aged monocultures and single-storied**.
+To apply theoretical growth and yield functions on managed forests, adjustments are required, especially for leaf area index (LAI) which is a key biophysical variable in process-based growth models. 
+ To asses this, the performance of canopy LAI in modelling the **basal area (BA, measured at breast height = 1.30m)** of managed boreal forests dominated by Norway spruce (Picea abies (L). Karst) and Scots pine (Pinus sylvestris L.) was investigated by heterogeneity analysis.
+The study was based on the assumption that canopy LAI and BA are strongly related and are vital for estimating stand productivity and growth.
+ Managed forests were represented by field data from the 2016 and 2017 Swedish National Forest Inventory (NFI) campaigns.
+
+- **including ground-based stand structural heterogeneity (SSH, described by species decomposition, coefficient of tree diameter variation, tree social status, height-diameter ratio) improved LAI-BA and BA-LAI models**
+- including spectral hereogeneity (SPH, described by begetation and textural indices) improved BA-LAI fit as well, suggesting potential use of Sentinel-2 data (Google Earth Engine) in future grwoth models
+
+## 1. Introduction
+- stem growth per unit of absorbed light positively related to per unit grwoth of tree canopy LAI
+- **LAI**: half of the total surface area of green leaves or needles per unit of ground horizontal surface area
+- **PAI**: LAI + other light blocking elements (e.g. twigs, branches, stems)
+
+> In recent years, mixed-species forests have been recognised and a number of studies relating mixture effects on productivity (Pretzsch et al., 2015; Pretzsch and Schuetze, 2016), provision of multiple ecosystem services (Gamfeldt et al., 2013; Forrester and Pretzsch, 2015; Felton et al., 2016) and as an adaptation strategy to cope with climate change (Bolte et al., 2009; Kolstrom et al., 2011) have been published.
+
+- lack of growth models resulted in theoretical growth functions, usually suited for even-aged, single-storied monocultures
+- adaptions needed when applying LAI-conversion functions to managed stands
+
+## 2. Materials and methods
+> Sweden’s forest covers about 28 million hectares representing 69% of the total land area of the country and it is characterized by a north–south gradient (from 55° N to 69° N) with temperate to boreal vegetation zones, respectively (Skogsdata, 2018).
+Productive forestland covers about 23.5 million hectares with coniferous species largely dominant (Pinus sylvestris L., 39% and Picea abies (L). Karst, 27%).
+Birch species (Betula pendula and Betula pubescens) also accounts for 12% of the total productive forest area. On the other hand, the share of the area by mixed-species forests have also increased with 14% and 8% of mixed conifers and mixed conifer/broadleaves on productive forest lands, respectively (Fridman and Westerlund, 2016).
+
+- data restrictions: dbh $\geq 10$ cm, tree height $\geq 4$ m, forest age $\leq 100$ yr
+- table with data from NFI (2016--2017):
+    - basal area (m^2 / ha)
+    - tree height (m)
+    - stand age (yr)
+    - stem density (trees / ha)
+    - species proportion (% of basal area, % of stem number)
+    - H-D ratio
+    - coefficient of tree diameter variation (CVD)
+    - tree social status
+    - ...
+- stand structural variables assumed to influence relationship between measured BA and modelled LAI:
+    - species composition and dominance
+    - tree size heterogeneity
+    - stem density
+    - tree height
+    - stand age
+    - variables describing site characteristics: latitudinal gradient, temperature sum, humidity
+- tree dominance: $\geq 65$% or $\geq 70$% proportion in stems or BA (not respectivelty but alternatively)
+- site heterogeneity:
+    - temperature sum: sum of average daily mean temperature exceeding 5$^{\circ}$C during vegetation period
+    - humidity: difference between precipitation and loss of water by transpiration and evaporation during growing season period where temperature exceeds 5$^{\circ}$C
+- BA(LAI) is Michaelis-Menten type relation, here LAI is the resource and BA the production variable
+
+## 3. Results
+> For both species, general stand structural variables such as tree height, stand age, stem density and heterogeneity variables by CVD, tree social status and H-D ratio were the most significant variables in the final models.
+For Scots pine, the addition of temperature sum was also significant to the final model.
+
+## 4. Discussion
+Many literature references are mentioned here with classical relationships between LAI and stem diameter and so on.
+Probably all of those relationships hold in our model by construction.
+
+> Recent surveys from the Swedish NFI reports that about 20% of the productive forest-land is a mixture of Scots pine and Norway spruce (Fridman et al., 2014; Holmström et al., 2018).
+Similarly, multi-layered Scots pine stands with understory layer of Norway spruce and birch created by mass regeneration and size stratification have been observed in central and northern Sweden (Lundqvist et al., 2019).
+
+> For Norway spruce, the LAI was higher in the monocultures (100% of the total BA) than in the mixtures because of the lower tree heights observed in the mixtures (Fig. 1E).
+
+> Scots pine is a shade intolerant species and therefore, exhibits dominance in mixtures (Goude et al., 2019).
+
+> All the size heterogeneity variables had negative coefficients (Table 3) and this supports earlier reports of the **negative correlation between tree size inequality and stand productivity** (Zeller et al., 2018; Sun et al., 2018).
+
+> Species-specific sizes and crown allometry of dominant (larger) trees show greater light interception and light-use efficiency than for smaller trees in heterogenous stands (Pretzsch, 2009; Gspaltl et al., 2013; Binkley et al., 2013a).
+
+## Personal conclusions
+- We can use data from NFI (Table 1) for to initialize stands and to compare later stages of our stands with.
+- We can use provided formulas to compute stand characteristics of our modeled stands:
+    - species composition: Eq. (1)
+    - species dominance: Eqs. (2) and (3)
+    - tree size heterogeneity: Eqs. (4)--(6)
+
+In any case we would need to come up with temperature sums and humidities for our stands.
+

@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "Er war unklug genug..."
 author: goujou
 date:   2019-10-26

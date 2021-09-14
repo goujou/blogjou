@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "I wondered whether this would be..."
 author: goujou
 date:   2019-11-12

@@ -1,0 +1,127 @@
+---
+title: "Moving beyond the incorrect but useful paradigm: reevaluating big-leaf and multilayer plant canopies to model biosphere-atmosphere fluxes – a review
+"
+date: 2021-09-14
+doi: 10.1016/j.agrformet.2021.108435
+author:
+    - Gordon B. Bonan
+    - Edward G. Patton
+    - John J. Finnigan
+    - Dennis D. Baldocchi
+    - Ian N. Harman
+---
+## Abstract
+- **big leaf**: one-layer canopy
+
+This article reviews the scientific debate of big-leaf vs multi-layer canopy modeling for land surface models.
+Comparisons with flux tower measurements show supremacy of good multi-layer models (5-10 layer suffice).
+
+Important vertically resolved quantities:
+- canopy air temperature
+- specific humidity
+- wind speed
+- water leaf potential (for dry soils)
+
+## 1. Introduction
+> George Box’s often quoted statement that “all models are wrong but some are useful” was part of a discussion regarding the process of building scientific models (Box, 1979).
+He argued for parsimonious models because “simplicity illuminates, and complication obscures” and because “indiscriminate model elaboration is in any case not a practical option because this road is endless”. 
+
+- **dual source canopy**: one leaf layer, separate fluxes for leaves and soil
+- wind speed decreases with canopy depth
+- relatively dense forests: daytime air temperature varies, mod-canopy maximum a few degrees warmer than in understort
+- vertical profiles in leaf water potential can create water-stressed leaves in upper canopy with reduced stomatal conductance and photosynthesis
+- heterogeneity in leaf temperature
+- CLM5: one canopy layer but > 20 soil layers (**despite poorly known necessary vertical thermal and hydraulic parameters**)
+- Raupach (1991):
+    - canopy-atmosphere models (CAM, multi-layer): locally useful
+    - simplified canopy-atmosphere models (SCAM): globally useful
+- profound differences in microclimate between overstory and understory: important for ecological impact studies
+- today: 
+    - better numerical solutions, CAM might also globally be useful
+    - better surface flux modeling
+
+## 2. Background
+
+- multi-layer models compute generally: radiative transfer, stomatal conductance, leaf energy fluxes,turbulent diffusion; coupled to temperature and water vapor concentration, CO$_2$ concentration at each layer
+- big leaf: Penman-Monteith equation for evaporation, atmosphere governed by
+    - $R^{'}_n$: net energy availabe to canopy after accounting for soil and biomass heat storage
+    - $\delta^{'}$: saturation deficient at some height above canopy
+    - $g_a$: buld aerodynamic conductance for scalar transport (assumed equal for heat and water vapor, only for convenience)
+    - $g_c$: bulk stomatal conductance (canopy conductance)
+- relationships between multi-layer and single-layer parameters not uniquely determined
+- physical meaning of Penman-Monteith equation gets lost if accumulated over several layers, in particular $g_c$ is impossible to be precisely specified
+- leaf nitrogen gradient in canopy less steep than light gradient
+- both types of models can be separated into sunlit and shaded leaves
+- also leaf inclination angle and leave age cohorts added later to multi-layer models
+- green leaf area index and brown stem area index:
+    - leaf surface: transpiration and photosynthesis
+    - leave and stem surface (plant area index): radiative transfer, canopy evaporation, sensible heat flux, momentum absorption
+- plant canopy models must parameterize turbulent fluxes between vegetation and atmosphere
+    - **MOST**: Monin-Obukhov Similarity Theory
+    - **RSL**: roughness sublayer, region within and just above canopies where observed flux-gradient relationships depart from MOST
+- Lagrangian approach to turbulent eddies
+- localized near-field theory
+
+>  CLM5 also requires a complex iterative calculation of surface fluxes and canopy temperature (Lawrence et al., 2019).
+Up to 40 iterations are allowed in CLM5, **but convergence is not guaranteed, in which case arbitrary adjustments to fluxes are implemented to achieve energy conservation.**
+
+- vertical distribution of leaf area most important
+- **in data-rich world of today it can be measured (opposing to soils)**
+- also leaf angular inclination, vertical nitrogen profile
+
+## 3. The multilayer canopy model
+Model revised from [Bonan et al (2018)](https://doi.org/10.5194/gmd-11-1467-2018) to allow for a generalized continuum of 1 to N layers and is identified as CLM-ml v1.
+
+- **mesic habitat**: moderate or well-balanced supply for moisture
+- **xeric habitat**: dry
+
+## 4. Comparison of one-layer and multilayer canopies
+
+In general, the multilayer model's fluxes come much closer to the observations.
+
+### Reasons
+- sunlit leaves dominate upper canopy, most shaded leaves in lower canopy
+- $V_{\text{cmax}}$ declines with canopy depth down to 1/2
+- daytime air temperature peaks in mid-canopy and decreases by 1 degree or more in lower canopy
+- nighttime minimum temperature in upper canopy
+- daytime specific humidity less in upper canopy
+- wind speed decreases with canopy depth
+- much of solar radiation absorbed in upper canopy
+- leaf transpiration peaks in upper canopy: lower mid-day leaf water potential in upper canopy
+- leaves in upper canopy 2 degrees warmer than in lower canopy
+
+### Important variabales
+- within-canopy air temperature, specific humidity, wind speed profiles
+- sensible heat flux most sensitive to temperatire profile, sunlit and shaded proportion sensible to wind speed (not the total)
+- latent heatflux sensible to temperature and humidity
+- **GPP differences between multi-layer and big leaf driven by their light profiles**, low response to well-mixed assumption, temperature, humidity and wind profiles
+
+### Number of layers
+- better results with increasing number of layers
+- **little immprovements beyond 10 layers**
+    - valid for simply-structured canopies (not tropical ones)
+    - might be model dependent
+- proportion of absorbed solar radiation between sunlit and shaded leaves independent of number of layers
+
+## 5. Discussion
+> The results presented in this study show that resolving vertical profiles of air temperature, specific humidity, and wind speed in forest canopies reduces surface flux biases compared with a single canopy layer.
+
+## 6. Conclusions
+>  The modeling analyses presented herein show that the dismissal of multilayer canopy models as too complex is no longer valid.
+Multilayer canopy models are not a complication that obscures; they are instead a simplification that illuminates the processes controlling surface flux calculations compared with land surface models such as CLM5.
+Multilayer canopy models are a necessary model elaboration, not the indiscriminate model elaboration that Box (1979) believed was endless and argued against.
+
+> Indeed, a comparison of technical descriptions reveals the multilayer canopy (Bonan et al., 2018) to be the simpler, not more complex, implementation of surface fluxes compared to CLM5 (Lawrence et al., 2019).
+
+
+> CLM5 has an ecosystem demography component (FATES; Fisher et al., 2015; Koven et al., 2020), but in coupling FATES to CLM5 the vertically-structured canopy, utilized for photosynthesis and light competition in FATES, is reduced to a canopy leaf area index and a canopy conductance for CLM5’s big-leaf surface flux formulation (Lawrence et al., 2019).
+A more consistent coupling between the models would utilize the vertical structure of FATES in a multilayer model of surface fluxes.
+
+
+## Personal conclusion
+In general, multilayer canopy models are much better than big leaf models.
+However, for our purpose of computing GPP, we can omitt many of the overwhelmingly complicated processes and concentrate on the light profile.
+
+
+
+

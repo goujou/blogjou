@@ -93,8 +93,8 @@ where $K=1$ defines the *Shannon entropy*.
 Assume we are given a set of $n$ possible events $\\{x_i\\}$ with mean $m$ and we want to find the associated probabilities $p_i$ that maximize the Shannon entropy $\mathbb{H}$.
 Well, first of all we might ask, why maximize the entropy in the first place?
 [Jaynes](https://journals.aps.org/pr/pdf/10.1103/PhysRev.106.620?casa_token=2gKJdUxOSPUAAAAA%3A6Ks88-YrdK28E_jxn3l0wA9q4Eo5SYkctGzDjrqrL7JPNAb3CtJGZ0UhRGyK2moRCXpACiEYY3fvLjc) gives us an insightful interpretation.
-> The principle of maximum entropy may be regarded as an extension of the principle of insufficient reason (to which it reduces in case no information is given except enumeration of the possibilities $x_i$),with the following essential difference.
-> The maximum-entropy distribution may be asserted for the positive reason that it is uniquely determined as the one which is maximally noncommittal with regard to missing information,instead of the negative one that there was no reason to think otherwise.
+> The principle of maximum entropy may be regarded as an extension of the principle of insufficient reason (to which it reduces in case no information is given except enumeration of the possibilities $x_i$), with the following essential difference.
+> The maximum-entropy distribution may be asserted for the positive reason that it is uniquely determined as the one which is maximally noncommittal with regard to missing information, instead of the negative one that there was no reason to think otherwise.
 > Thus the concept of entropy supplies the missing criterion of choice which Laplace needed to remove the apparent arbitrariness of the principle of insufficient reason, and in addition it shows precisely how this principle is to be modified in case there are reasons for "thinking otherwise."
 
 We can identify the maximum entropy distribution using the technique of Lagrange multipliers.
@@ -238,7 +238,7 @@ Now we apply the product rule $\dd{(E_i\,p_i)} = E_i\,\dd{p_i} + p_i\,\dd{E_i}$ 
     \dd{S} = K\beta\,\left[\sum_i \dd(E_i\,p_i) - \sum_i p_i\,\dd{E_i}\right],
 \end{equation}
 
-where $\sum_i \dd{(E_i\,p_i)} = \dd\left(\sum_i p_i\,E_i\right) = \dd{E}$ and $\sum_i p_i\,\dd{E_i}$ is the expectation value of the work done through the reversible process of changing $S$ only a tiny bit.
+where $\sum_i \dd{(E_i\,p_i)} = \dd\left(\sum_i p_i\,E_i\right) = \dd{E}$, and $\sum_i p_i\,\dd{E_i}$ is the expectation value of the work done through the reversible process of changing $S$ only a tiny bit.
 Consequently,
 
 \begin{equation}
@@ -260,6 +260,7 @@ If our ideal gas is in thermodynamic equilibrium, then all microstates are equal
 This leads to
 
 \begin{equation}
+    \nonumber
     S = -k_B\,\sum_i p\,\log p = -k_B\,\Omega\,\frac{1}{\Omega}\,\log \frac{1}{\Omega} = k_B\,\log\Omega,
 \end{equation}
 

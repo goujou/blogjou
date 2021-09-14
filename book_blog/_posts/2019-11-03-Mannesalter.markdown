@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "Aber in Wahrheit hat das Mannesalter..."
 author: goujou
 date:   2019-11-03

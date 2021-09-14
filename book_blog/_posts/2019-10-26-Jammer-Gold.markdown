@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "Wahrlich ein Jammer..."
 author: goujou
 date:   2019-10-26

@@ -1,5 +1,4 @@
 ---
-layout: paper_blog_post
 title: "Calculating the effective permeability of sandstone with multiscale lattice Boltzmann/finite element simulations"
 date: 2021-05-13
 doi: 10.1007/s11440-006-0018-4

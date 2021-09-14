@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "So wenig ich sicher war..."
 author: goujou
 date:   2019-10-26

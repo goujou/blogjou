@@ -68,6 +68,23 @@ exclude:
 
 show_excerpts: True
 
+header_pages:
+    - title: BookJou
+      path: book_blog/index.html
+      category: book_blog   
+    - title: JoyBlog
+      path: joy_blog/index.html
+      category: joy_blog
+    - title: MathJou
+      path: math_blog/index.html
+      category: math_blog
+    - title: PaperJou
+      path: paper_blog/index.html
+      category: paper_blog
+    - title: PrivateJou
+      path: private_blog/index.html
+      category: private_blog
+
 collections:
   books:
     output: true
@@ -91,6 +108,7 @@ defaults:
       path: "book_blog/*"
     values:
       category: "book_blog"
+      layout: "book_blog_post"
   - scope:
       path: "joy_blog/*"
     values:
@@ -103,4 +121,9 @@ defaults:
       path: "paper_blog/*"
     values:
       category: "paper_blog"
+      layout: "paper_blog_post"
+  - scope:
+      path: "private_blog/*"
+    values:
+      category: "private_blog"
 

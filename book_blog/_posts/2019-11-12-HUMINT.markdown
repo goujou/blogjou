@@ -1,0 +1,11 @@
+---
+title: "This led to the practice..."
+author: goujou
+date:   2019-11-12
+category: book_blog
+book_id: SnowdenRecord
+page: p. 280
+---
+This led to the practice called LOVEINT, a gross joke on HUMINT and SIGINT and a travesty of intelligence, in which analysys used the agency's programs to surveil their current and former lovers along with objects of more casual affection - reading their emails, listening on their phone calls, and stalking them online.
+NSA employees knew that only the dumbest analysts were ever caught red-handed, and though the law stated that anyone engaging in any type of surveillance for personal use could be locked up for at least a decade, none in the agency's history had been sentenced to even a day in prison for the crime.
+Analysts understood that the government would never publicly prosecute them, because you can't exactly convict someone of abusing your secret system of mass surveillance if you refuse to admit the existence of the system itself.

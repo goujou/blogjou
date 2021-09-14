@@ -1,0 +1,74 @@
+---
+title: "Global maps of twenty-first century forest carbon fluxes"
+date: 2021-05-26
+doi: 10.1038/s41558-020-00976-6
+author:
+        - Nancy L. Harris
+        - David A. Gibbs
+        - Alessandro Baccini
+        - Richard A. Birdsey
+        - Sytze de Bruin
+        - Mary Farina
+        - Lola Fatoyinbo
+        - Matthew C. Hansen
+        - Martin Herold
+        - Richard A. Houghton
+        - Peter V. Potapov
+        - Daniela Requena Suarez
+        - Rosa M. Roman-Cuesta
+        - Sassan S. Saatchi
+        - Christy M. Slay
+        - Svetlana A. Turubanova
+        - Alexandra Tyukavina
+---
+The authors introduce a geospatial monitoring framework that integrates ground Earth observation data to map annual forest-related greenhouse gas emissions and removels from 2001 till 2019.
+They estimate that global forests were a carbon sink of $-7.6\,$GtCO$_2$e yr$^{-1}$ ($-15.6+8.1$).
+The final goal is to support forest-specific climate mitigation with both local detail and global consistency.
+
+### Current situation
+- land use change patterns change faster than modelled
+- distinguishing anthropogenic from non-anthropogenic effects possible only by direct observation
+- different approaches lead to very different global net forest fluxes (projects, models vs inventories, countries, etc).<br>
+$\to$ forests' role in climate mitigation unclear<br>
+$\to$ discouraging to take transformational actions
+
+### What's new
+- transparent, independent and spatially explicit global system for monitoring collective impact of forest-related climate policies by diverse actors across multiple scales
+- separation of sources from sinks
+
+### Global distribution of forest emissions and removals
+- most uncertainty in global gross removals
+- tropical forests with highest gross fluxes, highest net sinks in temporal and boreal forests
+
+### Fluxes for specific localities and drivers of forest change
+- Brazilian amazon forest a net source, greater Amazon River Basin a net sink
+- smaller Congo River basin six times higher net sink due to lower emissions
+
+### A flexible data integration framework
+- three tiers of methods, parameters, and data sources with different complexity and accuracy
+- results most sensitive to data sources
+
+### Forest fluxes in the global carbon budget
+- results not comparable to other global estimates (net vs gross, forests vs all, all GHGs vs CO$_2$)
+- no way here to distinguish between anthropogenic and non-anthropogenic effects (data not available on small scales)
+- net CO$_2$ forest sink larger than in Global Carbon Project because emissions might not be completely captured here by the medium resolution satellite observations used to underpin the analysis
+
+### Limitations and future improvements
+- data spatially detailed with temporal inconsistencies:
+    - lack of consistent time-series of forest regrowth
+    - lack of consistent time-series for global loss product
+- for many forests required long-term inventories do not exist
+
+### Conclusions
+- reduce deforestation is important
+- mitiagtion effects of intact (middle-)old forests often underestimated
+- maps better than tables
+
+> The global forest carbon monitoring framework introduced here, and the main improvements identified above, allow for efficient prioritization and evaluation of how data updates and improvements influence GHG flux estimates and their uncertainties.
+
+## My comments
+As far as I understood, the authors seem to see the problem that there is no time to install detailed and long-term monitoring systems for forests, so they propose to synthesize available data by means of general standards.
+
+### Ideas
+Giulia asked whether a 30mx30m resolution is rather necessary or hindering.
+What about an AIC for spatial resolution?

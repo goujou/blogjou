@@ -1,0 +1,199 @@
+---
+title: "Model–data synthesis in terrestrial carbon observation:
+imethods, data requirements and data uncertainty specifications
+"
+date: 2021-06-19
+doi: 10.1111/j.1365-2486.2005.00917.x
+author:
+    - M. R. Raupach
+    - P. J. Rayner 
+    - D. J. Barrett
+    - R. S. Defries
+    - M. Heinemann
+    - D. S. Ojima
+    - S. Quegan
+    - C. C. Schmullius
+---
+> The focus of this paper is observation of the carbon
+cycle, and in particular its land-atmosphere compo-
+nents, as one part of an integrated earth observation
+system.
+
+## Introduction
+- model data synthesis: the combination of the information contained in both observations and models through both parameter-estimation and data-assimilation techniques
+    - model testing and data quality control
+    - interpolation of spatially and temporally sparse data
+    - inference from available observations of quantities which are not directly observable
+    - forecasting
+
+- 3 themes:
+    - model-data syntheis based on terrestrial biosphere models as essential component of a terrestrial carbon observation ssystem (TCOS)
+    - data uncertainties as as important as data values
+    - sound uncertain specifications
+
+## Purposes and attributes of a TCOS
+> A succinct statement of the overall purpose of a TCOS
+might be: to operationally monitor the cycles of carbon
+and related entities (water, energy, nutrients) in the
+terrestrial biosphere, in support of comprehensive,
+sustained earth observation and prediction, and hence
+sustainable environmental management and socio-
+economic development.
+
+- a TCOS needs:
+    - scientific credibility
+    - respect carbon budgets
+    - high spatial resolution
+    - high temporal resolution
+    - large number of entities
+    - sufficient range of processes
+    - partitioninong of net fluxes
+    - quantification of uncertainty
+    - **altogether: swiss army knife (eierlegende Wollmilchsau)**
+
+## Model–data synthesis: methods
+
+### Overview
+
+> All applications rest on three foundations: a model of the system, data about the system, and a synthesis approach.
+
+#### Model
+- ODE or difference equation, including a noise term
+- noise accounts for imperfect model formulation and stochastic variability in forcings and parameters
+
+#### Data
+- two types:
+    - observations and measurements
+        - $z=h(x, u) + \text{noise}$, where $h$ specifies the deterministic relationship between the measured quantities $z$ and $u$ and the system state $x$; z accounts fot mesurement error and representation error
+    - prior estimates for model quantities
+
+#### Synthesis
+- finding optimal match between data and model
+- 3 kinds of output:
+    - optimal estimates for model properties to be adjusted (target variables)
+    - uncertainties about these estimates
+    - assessment of fitting the data, given the uncertainties
+- 3 basic choices:
+    - target variables
+    - cost function
+    - search strategy for optimal values
+        - nonsequential: all data treated at once
+        - sequential: data incorporated step by step
+
+#### Target variables
+- model parameters $p$, forcing variables $u$, initial conditions $x^0$m state vector $x^n$ itself: all collected in vector $y$
+- **parameter estimation problems: $y=p$**
+- **data assimilation problems: target variables can be any model property, with emphasis on state variables**
+
+#### Cost function
+- common choice:
+
+\begin{equation}
+    \label{eqn:cf}
+    J(y) = (z-h(y))^T[\operatorname{Cov}\,z]^{-1}(z-h(y)) + (y-\hat{y})^T[\operatorname{Cov}\,\hat{y}]^{-1}(y-\hat{y})
+\end{equation}
+
+- $\hat{y}$ vector of priors (a priori estimates for target variables)
+- **model–data synthesis problem: vary $y$ to minimize $J(y)$, subject to the constraint that $x(t)$ must satisfy the dynamic model**
+- **$y$ at the minimum is the a posteriori estimate of $y$, including information from the observations as well as the priors**
+- Eq. \eqref{eqn:cf} is *minimum-variance estimate* for $y$
+    - for any error distributed it is unbiased
+    - minimum error covariance among all in $z$ linear and unbiased estimates
+    - if error distributions Gaussian, even a **maximum likelihood** estimate for $y$, conditional on data and model dynamics
+- other choices for other problems or other error distributions
+
+#### Search strategies for nonsequential problems
+
+##### Example
+> Thus the cost function, and thence the entire minimization, takes a form in which neither the observations nor the prior estimates appear; they are replaced by quantities a and b scaled by the square roots of the inverse covariance matrices, which are measures of confidence.
+This is no mathematical nicety; rather it demonstrates that the data and the uncertainties are completely inseparable in the formalism.
+**To put the point provocatively, providing data and allowing another researcher to provide the uncertainty is indistinguishable from allowing the second researcher to make up the data in the first place.**
+
+##### Algorithms for nonsequential problems
+> A high condition number of the Hessian of $J$ indicates that some linear combination(s) of the columns are nearly zero, that is, that the curvature is nearly zero in some direction(s), so that the minimization problem is ill-conditioned, as in the case of a valley with a flat floor.
+
+- analytical solution: only possible of $h(y)=H\,y+\text{noise}$ linear- gradient descent: simple and low cost, but tend to find local minima near starting value rather than global minimum
+- global search: find global minimum by searching through the whole $y$ space: overcome local minimum problem, but high costs
+    - for example, simulated annealing finds the vicinity of a global minimum
+    - then apply gradient descent from there
+
+#### Search strategies for sequential problems
+- Kalman filter, genetic methods
+- adjoint methods (backward integration)
+
+#### Discussion of model–data synthesis methods
+
+##### Differences between nonsequential and sequential strategies.
+- advantages sequential:
+    - optimal state can differ from that embodied in model equations
+    - $x^n$ required to be included in $y$ (leads to intractable dimensionality in nonsequential models
+    - size does not grow with length of model integration
+    - can easily handle incremental extensions to time series observations
+- advantages nonsequential:
+    - treat all data at once (see impacts of data at different points in time)
+
+##### Model and data error structures
+- often assumend Gaussian, no temporal correlations
+- generalizations active area of research
+
+##### Nonsequential and sequential parameter estimation
+- usually done nonsequantially (LS)
+- but: one can incorporate $p$ as part of $y$ and do sequential analysis
+    - allows change of parameters by data, caused by catastrophic events
+
+## Model–data synthesis: examples
+- parameter estimation
+- atmospheric inversion methods to infer surface-atmosphere fluxes from atmospheric composition observations and atmospheric transport models
+- combination, advantages:
+    - different observations constrain different processes
+    - different observations have different resolutions in space and time (also a problem)
+- weather forecast by atmospheric and ocean circulation models
+
+## Data characteristics: uncertainty in measurement and representation
+> **We have emphasized that data uncertainties affect not
+only the predicted uncertainty of the eventual result of
+a model–data synthesis process, but also the predicted
+best estimate.**
+
+- scale mismatches between measurement and models is part of the representation error
+
+> **An analogous temporal representation error arises when flask measurements (actually grab samples in time) are interpreted as longer-term means...**
+
+> A further contribution to representation errors for most atmospheric inversion studies to date has been the projection of possible source distributions to a restricted subspace, usually by dividing the earth into a number of large regions.
+This is done both for computational reasons and to reduce the error amplification arising from under-determined problems.
+Errors in the prescription of flux distributions within these regions give rise to a so-called aggregation error, described and quantified by Kaminski et al. (2001).
+**This error can be avoided by using adjoint representations of atmospheric transport that do not require aggregation (Rodenbeck et al., 2003a,b).**
+
+> There are few experiments where representation errors can be evaluated, since this requires simultaneous knowledge of sources and atmospheric transport.
+**However, one can use the range of model simulations as a guide (e.g. Law et al., 1996; Gurney et al., 2003).**
+
+- GPP = [net assimilation]
+- net primary productivity (NPP) = [GPP - autotrophic respiration]
+- net ecosystem productivity (NEP) = [NPPheterotrophic respiration]
+- net biome productivity (NBP) = [NEP - disturbance flux]
+- disturbance flux: grazing, harvest, and catastrophic events (fire, windthrow, clearing)
+
+### Mistmatches of measurement and model scale
+
+#### Observational issue
+There are several options to relate fine-scaled measurements to a coarse-scaled model:
+
+- $z_{\text{fine}}$ is a noisy sample of $z_{\text{coarse}}$, variability in $z_{\text{fine}}$ (covariance $R_{\text{fine}}$) treated as contribution to representation error
+- direct aggregation: $z_{\text{coarse}}$ is weighted average of $z_{\text{fine}}$
+- $z_{\text{fine}} = g(x_{\text{coarse}}, a_{\text{fine}})$: relate fine-scale observations to coarse-scale state variables and additional fine-scale sncillary data such as topography
+
+#### Scaling of dynamic model
+Translate $\mathrm{d}x/\mathrm{d}t=f(x, u, p)$ between scales:
+
+> fine-scale and coarse-scale equations are different (for instance, biased with respect to each other) because of interactions between fine-scale variability and nonlinearity in the fine-scale function f(x, u, p)
+
+## Summary and conclusions
+Critical error properties include:
+- the diagonal elements $[\operatorname{Cov}(z)]_{mm}=\sigma_m^2$ of the measurement error covariance matrix (where $\sigma_m^2$ is the error magnitude for an observation $z_m$)
+- the correlations between different observations, quantified by the off-diagonal elements of the covariance matrix
+- the temporal and the spatial structure of errors
+- the error distribution
+- possible scale mismatches between measurements and models
+- the representation of the observations in the model
+
+

@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "These leaks, accomplished in the coordinated fashion..."
 author: goujou
 date:   2019-11-12

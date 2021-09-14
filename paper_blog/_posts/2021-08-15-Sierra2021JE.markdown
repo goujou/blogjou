@@ -1,0 +1,52 @@
+---
+title: "The fate and transit time of carbon in a tropical forest"
+date: 2021-08-15
+doi: 10.1111/1365-2745.13723
+author:
+    - Carlos A. Sierra
+    - Lina M. Estupinan-Suarez
+    - Ingrid Chanca
+---
+The paper is on means and quantiles of transit times of C in the Porce forest (Columbia).
+Furthermore, the concept of $\mathrm{NPP}/\mathrm{GPP}$ as $\mathrm{CUE}$ is questioned and an interpretation as $\mathrm{NPP}/\mathrm{GPP} = R_h/\mathrm{GPP}$ is suggested.
+
+- The time that C fixed as $\mathrm{GPP}$ spends in an ecosystem is relevant to understand feedbacks between ecosystems and the climate system.
+- Plot level estimates of
+- Used average of parameters from a parameter set obtained by MCMC.
+    - Average okay for linear models?
+    - What about nonlinear models?
+- autotrophic pools: foliage, wood, fine roots, coarse roots
+- heterotrophic pools: fine litter, CWD, soil carbon
+- Most metabolic processes operate on an intra-annual time-scale.
+
+> We obtained an average value of 0.3 for the ratio NPP:GPP for
+the forests at equilibrium, a ratio that is often called carbon use ef-
+ficiency ($\mathrm{CUE}$) (Chambers et al., 2004; DeLucia et al., 2007; Gifford,
+2003; Malhi et al., 2015). According to common interpretation, this
+ratio would suggests that 30% of the photosynthetically fixed car-
+bon is used for biomass production. Similar values for $\mathrm{CUE}$ with simi-
+lar interpretations are also given by Chambers et al. (2004) and Malhi
+et al. (2013), although larger variability in $\mathrm{CUE}$ is reported in Doughty
+et al. (2018). However, we believe that this common interpretation of
+$\mathrm{CUE}$ has problems since, as our transit time distribution showed, au-
+totrophic respiration is composed of carbon that spends some time
+in biomass before being respired. The amount of time carbon stays in
+plant cells can vary from hours to decades, but photosynthates have
+to be metabolized from living cells (biomass) for CO2 production to
+occur. Thus, autotrophic respiration originates from biomass already
+produced; however, most of this metabolism occurs very quickly as
+the transit time distribution suggests, giving the false impression
+that a large proportion of carbon was not used to produce biomass.
+As other authors have shown (DeLucia et al., 2007; Gifford, 2003),
+estimates of $\mathrm{CUE}$ depend largely on whether estimates are made on
+short or long periods of time, and the transit time distribution pro-
+vides good support for avoiding an interpretation of this ratio out of
+the context of the time-­scales involved.
+
+\begin{equation}
+    \nonumber
+    \frac{\mathrm{NPP}}{\mathrm{GPP}} = \frac{\mathrm{GPP}-R_a}{\mathrm{GPP}} = \frac{R_e}{\mathrm{GPP}}
+\end{equation}
+
+- $\mathrm{NPP}/\mathrm{GPP} = 0.3$ means that 70% of total photosynthates are respired by autoptrophs and only 30% by heterotrophs.
+- no relation to biomass production (as $\mathrm{CUE}$), but interpretation in terms of different pathways of fixed C 

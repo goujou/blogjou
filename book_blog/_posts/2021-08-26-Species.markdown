@@ -1,0 +1,14 @@
+---
+title: "It is not at all atrivial matter that there are such things as species..."
+author: goujou
+date:   2021-08-26
+category: book_blog
+book_id: Gell-MannQuarkandJaguar
+pages: 12
+---
+It is not at all a trivial matter that there are such things as species; and they are not just artifacts of the biologist's mind, as has sometimes been claimed.
+Ernst Mayr, the great ornithologist and biogeographer, likes to recount how, as a young researcher in New Guinea, he counted a hundred and twenty-seven species of birds nesting in the valley where he was working.
+The members of the local tribe counted a hundred and twenty-six; the only difference between their list and his was that they lumped together two very similar species of gerygone that Ernst, with his scientific training, was able to distinguish from each other.
+Even more important than the agreement among different sorts of people is the fact that the birds themselves can tell whether or not they belong to the same species.
+Animals of different species are not usually in the habit of mating with one another, and in the rare cases where they do, the hybrids they produce are likely to be sterile.
+In fact, one of the most successful definitions of what constitutes a species is the statement that there is not effective exchange of genes by ordinary means between members of different species.

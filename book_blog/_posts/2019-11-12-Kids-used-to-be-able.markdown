@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "Kids used to be able to go online..."
 author: goujou
 date:   2019-11-12

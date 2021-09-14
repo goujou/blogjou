@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "The better you can understand..."
 author: goujou
 date:   2019-11-12

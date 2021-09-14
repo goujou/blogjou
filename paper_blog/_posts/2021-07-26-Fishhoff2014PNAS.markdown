@@ -1,0 +1,124 @@
+---
+title: "Communicating scientific uncertainty"
+date: 2021-07-26
+doi: 10.1073/pnas.1317504111
+author:
+    - Baruch Fischhoff
+    - Alex L. David
+---
+This paper tries to characterize, asses, and convey the uncertainties relevant to each of the following decision classes:
+
+- Decisions about action thresholds: Is it time to act?
+- Decisions with fixed options: Which is best?
+- Decisions about potential options: What is possible?
+
+- problem of too high or too little trust in science
+- scientists may overemphasize unimportant uncertainties and leave out others because of routine in the field
+    - the right level depends on the decision to be made
+- nonpersuasive (informing choices) and persuasive (advocating for a choice) communication
+
+## Decisions About Action Thresholds: Is It Time to Act?
+- threshold passed: time to act
+- uncertainty about the threshold
+
+### Characterizing Uncertainty
+- science judged by apparent wisdom of recommendations
+- outcome bias: decisions judged by outcomes rather than by their wisdom
+- hindsight bias: foreseeability of outcomes exaggerated
+- distrust can be raised if messages are **misaligned with decision maker's values**
+
+### Assessing Uncertainty
+- states must be precisely defined: what is a tumor, what is a flood?
+- states/eventc can be observed directly (counting) or indirectly (through biomarkers)
+- make decision thought process transparent
+
+### Conveying Uncertainty
+- standard words may have special meaning in certain fields
+- content of science-based knowledge should be based on what recipients know already
+
+
+## Decisions with Fixed Options: Which Is Best?
+- recommendation or informing of choices
+
+### Characterizing Uncertainty
+- probability distributions or parts of it or several distributions for different cases
+- **scientific uncertainty might increase over time as research reveals unforeseen complications**
+
+### Assessing Uncertainty
+- uncertainty in data, in how data was collected, how it is treated
+- uncertainty of method or model
+- all kinds of assumptions made
+
+> A recent experiment reduced this uncertainty for electricity field trials, finding a 2.7% reduction in consumption during a month in which residents received weekly postcards saying that they were in a study.
+That Hawthorne effect was as large as the changes attributed to actual programs in reports on other trials.
+
+### Conveying Uncertainty
+> When uncertainties arise from limits to the science, decision makers must rely on the community of scientists to discover and share problems, so as to preserve the commons of trust that it enjoys.
+
+> For example, there is wide variation in how laypeople interpret the expressions of uncertainty improvised by the IPCC, in hopes of helping nonscientists.
+
+## Decisions About Potential Options: What Is Possible?
+- decision makers try to create options
+
+> When they choose to act, they may wish to create options with more certain outcomes in order to know better what they will get, **or less certain
+ones in order to confuse rivals.**
+
+### Characterizing Uncertainty
+- graph of variables and their relations (influence diagram), run scenarios on it
+- uncertainties in both variables and their relationships
+- uncertainty from missing variables **(knowingly or unknowingly)**
+
+### Assessing Uncertainty
+- run model with values sampled from probability distributions, compute sensitivity of predictions
+- assess uncertainty of factors that science typically ignores or takes for granted
+
+>  Conversely, aviation has reduced uncertainty by addressing human factor problems in instrument design (52) and cockpit team dynamics (53).
+Decision makers need to know which factors a field neglects and what uncertainty that creates.
+
+### Conveying Uncertainty
+> To create options, people need to know the science about how things work.
+
+- problem with unintuitive integration (dynamics, nonlinearities)
+
+## Eliciting Uncertainty
+> **Science communication is driven by what audiences need to know, not by what scientists want to say.**
+
+- standard format required that scientists can create and decision makers can rad
+
+### Variability
+- use numerical values instead of unclear words (see IPCC)
+
+### Internal Validity, External Validity
+- effects on credible intervals: they differ from confidence intervals because of internal (evaluation of studies) and external validity (extrapolation of rsults) and pedigree of scientific results
+
+## Conclusion
+>  Performing these tasks demands commitment from scientists and from their institutions.
+It also demands resources for the direct costs of analysis, elicitation, and message development, and for the opportunity **costs of having scientists spend time communicating uncertainty rather than reducing it (through their research).**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

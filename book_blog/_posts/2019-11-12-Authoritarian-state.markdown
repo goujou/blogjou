@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "In an authoritarian state..."
 author: goujou
 date:   2019-11-12

@@ -1,0 +1,11 @@
+---
+title: "I took along a cheap laptop running TAILS..."
+author: goujou
+date:   2019-11-12
+category: book_blog
+book_id: SnowdenRecord
+page: p. 252
+---
+I took along a chep laptop running TAILS, which is a LINUX-based "amnesiac" operating system - meaning it forgets everything when you turn it off, and starts fresh when you boot it up again, with no logs or memory traces of anything ever done on it.
+TAILS allowed me to easily "spoof", or disguise, the laptop's MAC: whenever it connected to a network it left behind the record of some other machine, in no way associable with mine.
+Useful enough, TAILS also had built-in support for connecting to the anonymizing Tor network.

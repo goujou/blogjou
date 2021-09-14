@@ -1,5 +1,4 @@
 ---
-layout: book_blog_post
 title: "Wenn das Gericht eine Hexe verhaftet..."
 author: goujou
 date:   2019-10-26
