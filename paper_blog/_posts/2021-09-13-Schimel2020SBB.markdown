@@ -6,22 +6,19 @@ author:
     - Joshua Schimel
     - Karl Ritz
 ---
+In this editorial piece the editors in chief of SBB explain to what authors should pay attention before submitting papers in general, and to SBB in particular.
 
 ## 1. Introduction
-
 - papers are for the readers, not the authors (which in fact is not true): do readers gain novel insights and new knowledge?
 
 ### Checklist
-
 - journal's target audience
 - methods and analyses support interpretations and conclusions
-
 - conclusions well-grounded in the data and conclusive
 - speculation is clearly identified as such
 - clear writing
 
 ### 2. SBB's criteria are based on our aims and scope
-
 > Soil Biology & Biochemistry publishes scientific research articles of
 international significance which describe and explain fundamental
 biological and biochemical features and processes occurring in soil
@@ -41,14 +38,12 @@ systems.
     - English: AE tends to shorter sentences (laconic authors such as Mark Twain and Ernest Hemmingway), BE tends to longer and more elaborate prose (Jane Austen and Thomas Hardy)
 
 ### 3. An Editor's approach: How we apply these standards when we get a manuscript
-
 - first check for: international relevance, fundemantality, soil systems
 - language check: title, highlights, opening paragraphs
 - **first impressions matter**
 - first check happens in short blocks of free time, if there are problems the paper is put on the backburner
 
 #### Common issues that lead to a "Desk Reject"
-
 1. Telling the wrong story
     - message must meet the journal's scope
     - opening paragraph defines a problem to solve
@@ -62,7 +57,7 @@ systems.
     - be as precise as possible
 
 3. Poor presentation
-    - read the *Guide to Authors*
+    - read the *Guide to Authors**
     - use little color, good palettes, large font sizes, line numbers
 
 4. Weak conclusions

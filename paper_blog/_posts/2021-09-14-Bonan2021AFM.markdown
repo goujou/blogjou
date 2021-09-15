@@ -11,10 +11,10 @@ author:
     - Ian N. Harman
 ---
 ## Abstract
-- **big leaf**: one-layer canopy
-
 This article reviews the scientific debate of big-leaf vs multi-layer canopy modeling for land surface models.
 Comparisons with flux tower measurements show supremacy of good multi-layer models (5-10 layer suffice).
+
+- **big leaf**: one-layer canopy
 
 Important vertically resolved quantities:
 - canopy air temperature
