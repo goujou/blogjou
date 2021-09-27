@@ -1,0 +1,12 @@
+---
+title: "Limerick on the speed of light"
+author: goujou
+date:   2021-09-16
+category: book_blog
+book_id: Gell-MannQuarkandJaguar
+page: 173
+---
+    There was a young lady named Bright
+    Who could travel much faster than light.
+    She set out one day, in a relative way,
+    And returned home the previous night.
