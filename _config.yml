@@ -42,7 +42,7 @@ feed:
 
 #incremental: true
 
-paginate: 5
+paginate: 10
 paginate_path: "/page:num/"
 
 # Exclude from processing.
@@ -64,6 +64,8 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+    - vendor/
     - _code/
 
 show_excerpts: True

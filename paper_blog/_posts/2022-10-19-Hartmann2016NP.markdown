@@ -1,0 +1,89 @@
+---
+title: "Understanding the roles of nonstructural carbohydrates in forest trees – from what we can measure to what we want to know"
+date: 2022-10-19
+doi: 
+author:
+    - Henrik Hartmann
+    - Susan Trumbore
+---
+
+
+## Abstract
+New isotopic tools allow direct quantification of timescales involved in NSC dynamics, and show that NSC-C fixed
+years to decades previously is used to support tree functions.
+
+## I. Introduction
+ Although these approaches may be much more insightful for tree C relationships than concentration or pool size measurements (Ryan, 2011), they still infer fluxes from changes in NSC concentration over time and may require the assumption of steady state on longer timescales.
+
+> One major theme we emphasize throughout this review is that measured concentrations of NSC in tree organs cannot be interpreted explicitly in terms of ‘storage’ functions, but that storage is the result of asynchronies in the supply and demand for C currency compounds that occur across a range of timescales and, in part, reflect distances between source and sink tissues.
+
+> Especially as the combinations of stresses experienced by trees are altered in the context of climate change and enhanced atmospheric CO2 (Niinemets, 2010; Trumbore et al., 2015a), questions about the central role of NSC are critical for predicting resilience of trees that differ in life stage (ontogeny) and life strategies (phylogeny). In
+this paper, we give particular emphasis to the regulation of NSC storage in trees.
+
+> In forests, NSC pools are large enough for their changes to be important in annual stand-level
+C balance (Richardson et al., 2013) and given the central role of NSC in plant functioning, it is not surprising that many vegetation models are based on the analogy of mobile C as currency or cash flow (McDowell et al., 2011; Klein & Hoch, 2015).
+
+- **try several models and check NSC age?**
+
+## II. NSC in plant function: synthesis, classes, roles and responses to drought
+> Plants lack enzymes for cellulose degradation (Pallardy, 2008), so C in these compounds is not available to the plant for future use.
+
+> Amylose and amylopectin are the constituents of the most common storage carbohydrate, starch, and have the
+advantage over other carbohydrates in being osmotically inactive, allowing plants to accumulate them in large quantities. Besides NSC, lipids are important storage compounds and are used by plants as substrates for respiration but also for plant defence and communication.
+
+### 1. Photosynthesis and metabolism 
+> During photosynthesis plants transpire hundreds of molecules of water for each molecule of CO2 they assimilate (Taiz & Zeiger, 2002). Most of this water is transpired and only a small fraction is used to provide electrons for the light-dependent reactions of photosynthesis. Vascular plants control water loss from transpiration via regulation of stomatal aperture when soil water availability is reduced or when water vapour deficit is high. Regulation in response to declining soil water availability is triggered by root
+signalling via phytohormones causing stomata to close (Brodribb & McAdam, 2011); however, stomatal closure also reduces CO2 diffusion into the leaf.
+
+- **for Umeå**
+
+### 2. Defence
+> Although it is commonly believed that plants under stress are more vulnerable to additional disturbances (Manion, 1991), stresses such as drought usually result in increased concentrations of secondary metabolites (Gershenzon, 1984; Mattson & Haack, 1987) which likely reflects the accumulation of NSC from decreased growth sink activity (Herms & Mattson, 1992). However, accumulation of NSC may only occur during early phases of drought, and declining NSC availability during longer droughts may cause a reduction of allocation to defence compounds (Steele et al., 1995).
+
+### 6. Storage
+> Storage in plants has been defined as ‘resources that build up in the plant and can be mobilized in the future to support biosynthesis’ (Chapin et al., 1990, p. 424) so as to buffer any asynchrony of supply and demand which may occur on diel, seasonal or decadal (or longer) temporal scales and across plant organs.
+
+> In their early work on plant storage economy, Chapin et al. (1990) differentiated three distinct processes: (1) accumulation (build-up of resources when supply exceeds demand); (2) reserve formation (metabolically regulated synthesis of storage compounds, competing with other sinks like growth and defence); and (3) recycling (reutilization of compounds involved in growth or defence during later metabolization). This definition includes,
+therefore, both an overflow process (accumulation) and an actively regulated component of storage (reserve formation). **Interestingly, even some 30 yr after this seminal work, there is still discussion about whether C storage may be either ‘passive’ (sensu accumulation) or ‘active’ (sensu reserve formation) or both (Sala et al., 2012; Wiley & Helliker, 2012)**.
+
+## III. Tools and approaches for quantifying NSC dynamics
+>  Such problems severely limit the usefulness of any metric derived from concentrations measurements for mass-balance approaches for whole-plant C balance estimation, for example, by comparison with measures of net photosynthesis and respiration fluxes (Hartmann et al., 2015b). Direct assessments of whole-plant C balance are already challenging for smaller individuals (Zhao et al., 2013) but are exceedingly difficult in mature trees (Ryan,
+2011) and hence new approaches are needed.
+
+## IV. What is the spatial and temporal distribution of NSC in trees?
+>  Sugars produced in the leaf are converted to starch and stored in the chloroplast during daytime (i.e. when
+supply > demand) to be remobilized and used for growth during the night (Geiger et al., 2000).
+
+> Stems and coarse roots comprise the main woody volume of trees. Thus, even though their NSC concentrations are relatively low, they account for most of a tree’s NSC-stock.
+
+>  NSC concentrations usually decrease from the outer towards the inner sapwood zone in stems but remain constant from the sapwood–heartwood transition into the heartwood (Hoch et al., 2003). 
+
+- Fig. 6 shows C ages in different trees (stem and root effluxes, NSC, resprouts)
+
+## V. Studies on the use of NSC in plant functioning –
+progress towards answering longstanding questions
+> **Similarly, tracking how the age of both respired C and NSC change in various organs during tree death can shed light on whether residual NSC might be inaccessible for metabolism or simply not used in processes when trees approach mortality.**
+
+> Fischer et al. (2015) used such measures of RQ and 13C in respired CO2 to show that trees under C limitation (from shading) switched from progressively declining carbohydrates to stored lipids to fuel respiration but this was not observed during drought.
+
+> Allocation to storage was maintained even though the NSC pool size decreased (Hartmann et al., 2015b).
+
+> Corroborative evidence from radiocarbon analysis of springtime
+ascending xylem sap in sugar maple (Acer saccharum) indicates that
+the sugars mobilized to fuel leaf-out have been assimilated during
+several preceding growing seasons, likely by regular allocation of
+NSC to a well-mixed 3–5 yr ‘deep’ functional storage pool (Muhr
+et al., 2016). (**Compare with E age.**)
+
+> The storage pool size may decrease but sustained allocation can be traced with isotopic markers added to the atmosphere (Hartmann et al., 2015b) and should be accompanied by distinct transcript patterns of genes
+encoding for storage processes, like starch or lipid synthesis (Koch, 1996) and associated enzymatic activities. (**Should be seen as decreasing $C_S$ age during starvation.**)
+
+
+### 6. What is the role of symbionts in plant C allocation strategies?
+> Radiocarbon measurements of mycorrhizal fruiting bodies and parasitic plants indicate that C being transferred is mostly fixed within the last year (Gaudinski et al., 2009), which would seem to indicate that this is a high priority.
+
+> Interestingly, nutrient uptake did not decrease even though shaded or low-CO2 plants decreased the absolute amount
+of C transferred to mycorrhiza. Instead, plants optimized internal resource distribution by allocating roportionally more C and N to aboveground tissues to maximize the potential for CO2 assimilation (Zhang et al., 2015).
+
+> A similar resource limitation experiment applied atmospheric N2 removal to force rhizobia to ‘cheat’ on their
+hosts, thereby addressing plant sanctions for nonrewarding symbionts (Kiers et al., 2003).

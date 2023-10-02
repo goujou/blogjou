@@ -1,0 +1,113 @@
+---
+title: "Biodiversity as insurance: from concept to measurement and application"
+date: 2022-02-02
+doi: https://doi.org/10.1111/brv.12756
+author:
+    - Michel Loreau
+    - et al.
+---
+## Abstract
+- biodiversity will make aggreagate ecosystem properties vary less
+- insurance and portfolio theory connected to biodiversity
+- distinction between effects on mean and variability
+- application to ecosystem management
+
+## I. Introduction
+- decrease variation (buffering), increase mean (performance enhancing)
+- often happen at the same time
+
+## II. Insurance and portfolio theory in economics
+- trade-off between decreasing variance and increasing mean
+    - portfolios: different stocks
+    - options: permission to delay a decission until more information is available
+    - insurance: an insurer is paid to cover the highest risk scenarios
+
+### (1) Portfolios
+- maximize expected returns by a given level of risk by choosing not highly positively correlated assets
+- mean-variance trade-offs not yet applied in ecosystem functioning
+
+### (2) Options
+- option value determined by Black and Scholes
+- increased return if ill-suited species are lost, cynical toward biodiversity and stability theory
+
+### (3) Insurance
+- paying the insurance premium lowers wealth but saves from disaster
+- ecology: conservation strategies?
+
+## III. Insurance and portfolio theories in ecology
+
+### (1) Similarities and differences between insurance and portfolio theories in ecology
+- a zero-correlation assumption is ridiculous, apart from being separeted in space maybe
+- **the shared ecological driver (climate) by all species will have an increasingly negative impact which makes portfolio and insurance theory less likely to increase mean returns, no matter how it's done; planting species more suitable for a new climate might be useless for trees that grow to slowly compared to current climatic changes**
+
+### (2) Mechanisms of biological insurance
+- important: asynchronous fluctuations
+- > while competition does contribute to increase the level of asynchrony of population fluctuations, which has a stabilising effect on ecosystem properties, it simultaneously increases the amplitude of population fluctuations, which has a destabilising effect
+- > one should expect reduction of competition, i.e. niche complementarity, not competition, to favour ecosystem stability
+
+### (3) Distinguishing between the effects of biodiversity on the mean and variability of ecosystem properties
+- in ecology often trade-off between mean and variablity not yet consindered
+- > **Therefore, for clarity’s sake, we propose that the performance-enhancing effect be renamed a selection effect**
+    - **Who selects better than nature itself?**
+- > It may be worth recalling here that the selection effect does not conflict with the positive effects of biodiversity. Not only does it require the maintenance of biodiversity at larger spatial and temporal scales (Loreau, 2000), it even turns into functional complementarity when considered at larger scales because selection of the best-performing species under each environmental condition tends to increase the average level of ecosystem properties across space or time
+    - **Large scale spatial diversity is not the same as small scale spatial diversity for, let's say small animals living in such ecosystems, who may depend on different species and cannot just wander around between different ecosystems on a daily basis**
+
+### (4) Spatial insurance
+- large spatial scales, but low diversity on small scales
+
+## IV. Applications of biological insurance in ecosystem management
+
+### (1) Agriculture
+- local diversity for single farmers as biological insurance instead of economical insurance against extreme events
+- on country-wide scale: spatial diversity/insurance
+
+### (2) Fisheries
+- high species diversity allows simpler adaptation to market requests
+
+### (3) Forestry
+- under current future climate, mixed-species stands seem inevitable
+- portfolio theory over the last 20 years shows that mixed stands are both more stable and more ecomicially useful
+- pure poductivity without looking at the economic aspect does not make much sense
+- > **Ecological knowledge on the mechanisms that provide biological insurance has yet to be integrated into applications of biological insurance and portfolio theory to forest management. For example, García-Robredo (2018) recently demonstrated that reduced competition and facilitation between mixtures of two tree species can lead to overyielding, increased economic return and reduced financial risk. Most studies so far, however, have focused on demonstrating the positive effects of managing different types of stands (often monospecific) and have ignored complementarity effects within stands. Moreover, portfolio studies have not considered the variability in site conditions across the managed forest landscape and have disregarded spatial ecological insurance.**
+
+## V. Synthesis
+
+### (1) Shared features across disciplines
+- ecology: fixed species value, variable abundance
+- economy: changing stock value, fixed abundance (on first investment)
+
+### (2) Contrasts between ecological and economic concepts
+- economics: 
+    - no spatial insurance effect for a single asset
+    - automatic mean-stability trade-off
+- ecology:
+    - spatial insurance also for single species
+    - increase of performance and decrease of risk possible by complementary species effects
+
+## VI. Future challenges
+
+### (1) Linking the effects of biodiversity on ecosystem functioning and stability
+
+### (2) Incorporating multiple functions and feedbacks
+- > Future developments of biological insurance theory may require a clearer formulation and justification of the assumed objective function.
+
+### (3) Developing new approaches to partition biodiversity effects across scales
+
+### (4) Extending biological insurance theory to complex interaction networks
+
+## VII. Conclusions
+- biological insurance theory becoming mature
+- need to distinct between effects on mean and variablity of ecosystem properties
+- much more to do in this growing research field
+
+## Personal questions and remarks
+- What corresponds to "the market" and its fluctuation?
+- Scale (time oe space) must be large enough, a stand is probably not enough.
+- One should put infinite costs on the extinction of a species (policy-wise).
+- Portfolios: many pure spruce stands yield high productivity, but are susceptible to bark beetle outbreaks: mix the stands with different species
+- Option pricing in ecology seems cynical to me. Wait a while to learn whether or how much an intact ecosystem if beneficial before we decide to gradually destroy it opens Pandora's box, in particular at incomplete information of species' values and their interactions.
+ Insurance: store seedlings and genes in huge protected databases in case a species goes extinct
+- an insurance strategy: reduce plant density to avoid spread of infections
+- It seems to me that when they mention an example of a quantity to be stabilized in the first place, they speak about stock (productivity). It's not about species conservation or bioderversity in itself. Biodiversity is only considered as means to help ensure productivity (biomass, yield, salmon catches).
+- Best-performing species might deplete soil nutrients or other resources that are simply not part of the equations here.
+

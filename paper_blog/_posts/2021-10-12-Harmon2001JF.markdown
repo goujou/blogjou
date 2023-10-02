@@ -1,0 +1,42 @@
+---
+title: "Carbon Sequestration in Forests - Addressing the Scale Question"
+date: 2021-10-12
+doi: doi.org/10.1093/jof/99.4.24
+author:
+    - Mark E. Harmon
+---
+Whether young or old forests sequester or store more carbon, is a heated debate.
+Depending on the consideres scale in time, space, and involved proces, there are arguments for either side.
+This controversy is resolved at the landscape scale.
+
+Young forests are growing faster, while old forests have more dead trees and decomposition.
+On the other hand, replacement of older forests by young forests will result in a net release of carbon.
+
+- process of defining a problem should include specifying a spatial, temportal and process level
+- processes involved:
+    - tree growth
+    - photosynthesis
+    - plant respiration
+    - tree death
+    - litter production
+    - decomposition
+    - formation of stable organic matter in soil
+    - disturbances (e.g., harvesting and fire)
+    - manufacture use
+    - disposal of forest products
+    - substitution of fossil fuels
+
+- young forests often have a high amount of slash: high decomposition
+- detritus, soil, and forest products can be long-term storages
+- a single dead tree decomposes and loses mass, but an accumulation of many dead trees can accumulate mass
+- NPP = **gross growth** (in forestry terms)
+- > If one considers the average production over the length of a rotation, then older forests may be lust as productive as younger ones. This is because no forest can be $X$ years old without having been $X-1$ years old.
+- given enough time, ecosystems' carbon accumulation ability vanishes
+- > Although old forests have a substantial amount of dead and dying material, these losses are roughly offset by the production of this material. Ironically, it is the very production of that dead and dying material that prevents the older forest ecosystem from being a net carbon source to the atmosphere.
+- at large spatial cases with many age classes, effects might cancel out
+- disturbances less severe and less frequent: higher carbon storage (and vice versa)
+- increased NPP (by climate change) far too small to offset losses caused by conversion of older forests to younger forests
+
+## Personal comments
+- all the analyses are done in terms of carbon (tons/ha, tons/ha/yr)
+- we can do similar analyses in terms of transit time

@@ -1,0 +1,72 @@
+---
+title: "The carbon costs of global wood harvests"
+date: 2023-09-26
+doi: 
+author:
+    - Liqing Peng
+    - Timothy D. Searchinger
+    - Jessica Zionts
+    - Richard Waite
+---
+## Abstract
+- counting newly grown wood from harvested forests as extra is wrong because this growth would also happen without harvesting
+- harvesting forests leads until 2050 to additional eCO$_2$ in the realms of land use change due to agricultural expansion
+
+## Main text
+- depending on how you count, harvesting wood might not be just C neutral but even benefit the climate
+- reporting at national level allows countries to look C neutral
+- harvesting should decrease this benefit, but is not reported separately
+- net increase in forest C makes countries appear to have no emissions
+- reporting net effects of new wood harvests and regrowth from previous harvests leads to similar effects (no identification of effects of new wood harvests alone)
+- appears that harvesting in temperate countries is beneficial and in tropical countries it is costly (in terms of climate)
+- **wrong accounting**: Growth that would occur anyway cannot offset harvesting costs.
+- **so far**: mostly spatial offsetting, or offsetting with past growth
+- **possible**: offsetting with what grows in the same place **after** the harvest
+- **harvests lead to short-term emissions and undermine Paris Agreement**
+
+## Accounting for time in estimation of GHG costs
+- **CHARM (carbon harvest model)**: new global forest C model
+    - live vegetation, roots, slash, different wood products and landfills
+- computes annual difference in scenarios: forest would have grown, forest is harvested
+- emissions discounted with 4% per year: the earlier the heavier
+- **SCC (social carbon costs)**: for instance cost for mitigation might decreaste with better technology
+- mitigation now is more valuable (costly), already included in the discount
+- discount can be seen as interest rate for companies on today's emissions, they will have to pay back more later
+
+## Growing wood demand
+- long-lived wood products (LLP): sawn wood, wood panels, and other industrial roundwood
+- short-lived wood products (SLP): paper and papaerboard products
+- very-short-lived products-wood fuel (VSLP-WFL): wood harvedted deliberately for energy
+- very-short-lived products-industrial (VSLP-IND): waste from manufacture of other wood products, burned for energy
+- wood harvests will increase by 54% globally between 2010 nd 2050, mostly SLP; VSLP-WFL most uncertain
+- substituton effects for steal and concrete
+- "clear-cut-equivalents": area necessary by clearcutting to get the same amount of wood
+- nice flow-chart of wood products
+
+## Robustness of results
+- 3-5 GtCO$_2$e  per year
+- probably conservative: effects of harvests on soil C not counted: meta-analyses show quite some soil C loss
+- indirect effects such as road building ignored (can be several times direct effects)
+
+## Insensivity to discount rate
+- robust if society has a small preference for short-term over long-term mitigation
+
+## Meaning of economic effects
+- Compare harvesting with no human activity instead of another human activity such as land use change, otherwise you are covolving numbers.
+
+## A potential mitigation option
+- harvesting comes with carbon costs, offsetting is usually done in wrong ways
+- comparing them with land-use change due to agricultural expansion makes costs disappear, because costs are about equal
+- **No harvesting mitigates climate change.**
+- Later, mature forests might sink in C slower, but no harvesting now would buy us time.
+
+
+
+
+
+
+
+
+
+
+

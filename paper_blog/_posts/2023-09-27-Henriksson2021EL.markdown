@@ -1,0 +1,15 @@
+---
+title: "The mycorrhizal tragedy of the commons"
+date: 2023-09-27
+doi: 
+author:
+    - Nils Henriksson
+    - Oskar Franklin
+    - Lasse Tarvainen
+    - John Marshall
+    - Judith Lundberg-Felten
+    - Lil Eilertsen
+    - Torgny Näsholm
+---
+## Abstract
+

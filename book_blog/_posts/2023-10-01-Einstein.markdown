@@ -1,0 +1,11 @@
+---
+title: "Der intuitive Geist ist ein Geschenk..."
+author: goujou
+date:   2023-10-01
+category: book_blog
+book_id: LovelockNovozän
+page: p. 36
+---
+Einstein:
+> Der intuitive Geist ist ein Geschenk und der rationale Geist ein treuer Diener.
+Wir haben eine Gesellschaft erschaffen, die den Diener ehrt und das Geschenk vergessen hat.

@@ -1,0 +1,57 @@
+---
+title: "Acorn review: The persistent mystery of declining growth in older forests"
+date: 2023-05-23
+doi: 
+author:
+    - Dan Binkley
+---
+
+
+## Abstract
+Forests are very diverse all over the world, but they all share the decline in diameter growth rather after an early plateau (moment of full canopy development).
+Growth of trees and forests may be determined by other factors than carbon supply.
+
+## 1. Introduction
+It's not the tall trees that slow down in diameter growth but the medium to small trees. They really decline in grwoth rate which reduces the forest's growth rate.
+This can be caused at three levels:
+- resource use
+- efficiency
+- partitioning
+
+## 2. Resource use
+- decrease in LAI:
+    - due to collisions of branches, nutrient supply, hydraulic constraints on moving water up
+    - LAI reduction by 30% leads to light interception reduction of 10-20% (less self-shading)
+    - not enough to explain decreasing stem growth
+- water flow in streams draining old forests smaller than in young forests: declining water use cannot explain declining growth
+- not many studies on age vs nutrient supply
+    - big trees could limit nutrient availability of smaller trees
+    - fertilization increases growth
+    - but: still the same pattern of decreasing growth
+
+## 3. Efficiency: Declines in growth per unit of resource use
+- efficiency seems more site-dependent than age-dependent
+
+## 4. Partitioning
+- tempting assumption: older forests have more tissue and respire more, less C available for growth
+- but: most tissue is dead, half of respiration comes from growth, studies show lower respiration in older forests
+- below-ground C flux usually declines in concert with stemwood growth; no universal pattern though
+
+## 5. Beyond Carbon: Fitness may be about more than photosynthesis and C budgets
+- seemingly: declining PH from declining resource use efficiency, then different partitioning
+- **Is this focus on C sufficient?**
+- growth often out of synchrony with C assimilation
+- growth not always limited by rate of C uptake
+    - **trees might not maximize C uptake, might partition elsewhere to dispose of excess C** (see Prescott et al., 2021)
+    - **REDUNDANCY???**
+- once hierarchy of trees is established, trees arrange with it
+- older trees use resources less efficient, why?
+
+## 6. Three key points for the future
+- more data needed for aging forests, managed and unmanaged
+- do trees sustain their established social status?
+
+
+
+
+

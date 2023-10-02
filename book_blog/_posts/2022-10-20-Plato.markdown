@@ -1,0 +1,11 @@
+---
+title: "We can easily forgive a child..."
+author: goujou
+date:   2022-10-20
+category: book_blog
+book_id: WasmundDoLessGetMore
+page: 43
+---
+> We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.
+
+Plato

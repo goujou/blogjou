@@ -1,0 +1,43 @@
+---
+title: "Tips from neuroscience to keep you focused on hard tasks"
+date: 2021-10-27
+doi: https://doi.org/10.1038/d41586-021-00606-x
+author:
+    - David Badre
+---
+> Understanding cognitive control can help your working life, says David Badre.
+
+## Hard tasks
+- solve a methodological hurdle
+- design an elegant experiment
+- make sense of a puzzling result
+- work on a new model
+- write a paper or grant proposal
+
+## Make space
+> In practice, returning to a hard task in this way comes with a ‘restart’ cost.
+
+> Switching frequently between tasks makes producing quality work harder.
+
+> Be consistent. We should try to reserve a consistent time and place for our hard work and be protective of it.
+
+## Minimize distraction and never multitask
+
+> Even cues that we simply associate with other tasks, such as seeing our phones on the table, can distract us.
+As much as possible, we should keep our space and time for hard work clear of other distracting tasks.
+
+> Beware the allure of easy tasks.
+
+## Engage in good problem-solving habits
+
+> In general, we can get better at structuring hard problems with experience. 
+
+> Interact with others.
+Just like taking a break, interacting with others can help us conceptualize a problem in new ways.
+Talking to people with diverse backgrounds, perspectives and viewpoints that differ from our own can be a powerful way to break out of a rut and make progress, as well as get some perspective.
+
+
+## Personal comments
+- don't get overwhelmed by the entire task, do it step by step
+- maybe step back a level of abstraction and ask yourself, what is the goal
+
