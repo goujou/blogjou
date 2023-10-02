@@ -6,3 +6,6 @@ vendor
 assets/papers
 _plugins
 private_blog
+*.swp
+*.lock
+.bundle
