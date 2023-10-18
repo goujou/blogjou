@@ -1,7 +1,7 @@
 ---
 title: "The mycorrhizal tragedy of the commons"
 date: 2023-09-27
-doi: 
+doi: 10.1111/ele.13737
 author:
     - Nils Henriksson
     - Oskar Franklin
@@ -12,4 +12,48 @@ author:
     - Torgny Näsholm
 ---
 ## Abstract
+- trees trade C for N with mycorrhhizal network
+- this network is the "commons", part of the tragedy
+- trees gain additional N et the expense of neighbours by supplying more C to fungi
+- this can lead to increased N immobilization (in fungal biomass)
+
+## Introduction
+- ectomycorrhizal fungi (EMF) hold N back from trees when they are in need
+- when N supply is amended by fertilization, also EMF give away greater proportion
+- further supply of EMF with C makes them diminish N returns
+- fungus competes with other EMF symbionts of the same plant, can gain more C by exporting more N, until personal N matches its received C
+- receiving more C makes EMF use more N for itself
+- enhanced EMF growth initially increases N uptake, but eventually N immobilization in fungal biomass; negative feedback on plant's N uptake
+- **How can this negative feedback made it through evolution?**
+
+- dual scale of ectomycorrhizal symbiosis: one tree, many fungi and many trees, one fungus
+- trees have optimize individual benefit, this has consequences for other trees connected through the fungal network
+- combined efforts of trees to increase individual N gain aggravates N immobilization in fungal biomass
+
+## Hypothesis
+- fungus shares greater N proportion with trees that deliver more C
+- tree delivers more C to fungi that supply more N
+- tragedy from tree viewpoint: total C export to all fungi so high that it leads to N immobilization
+- tragedy from fungus viewpoint: exporting more N would reduce own growth, exporting less N reducec competitiveness for plant C
+- plants share common N pool, optimizing for individual gain hampers comunity gain
+- experiments with plant strangling and shading
+
+## Materials and methods
+
+### Seedling experiment
+
+### Field experiment
+
+### Model description
+
+## Results
+- shaded less biomass than sun, strangled no effect
+- shaded plants more N than sun plants, strangled plants way less: **decreased C export to fungi mobilizes soil N to the plant and vice versa**
+- maximum network-scale N mobilization occurs at intermediate level of network-scale C export
+- at individual tree level: 1 more C supply leads to 0.95 more N return, hence there is competition among trees which will eventually make network-scale N mobilization drop
+
+## Discussion
+- tragedy of the commons: individual gain reduces community gain
+- there is one common N pool all trees draw from (common EMF network, in which multiple fungi connect the host plants)
+- elevated atmospheric CO$_2$ levels should lead to higher N immobilization, more fungal biomass growth, maybe less tree growth
 
