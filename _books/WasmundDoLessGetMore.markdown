@@ -1,7 +1,7 @@
 ---
-book_id: WasmundDoLessGetMore
-author: Sháá Wasmund
-title: Do Less Get More
+book_id: RawlenceTreeline
+author: Ben Rawlence
+title: The Treeline
 language: English
-thumbnail: WasmundDoLessGetMore.jpg
+thumbnail: RawlenceTreeline.jpg
 ---

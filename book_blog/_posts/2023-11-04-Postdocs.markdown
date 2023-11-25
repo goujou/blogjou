@@ -1,0 +1,14 @@
+---
+title: "The prevalence of insignificance makes postdocs perish like fruit flies"
+author: goujou
+date:   2023-11-04
+category: book_blog
+book_id: MiloGoodEnough
+page: p. 133
+---
+Significance arises only where a relationship is *not* due to chance.
+In these cases, the null hypothesis is refuted and an alternative hypothesis vindicated.
+Impotantly, the null hypothesis does not need to be proved; it is only refuted trough expriments demonstrating significant results.
+[...]
+The fact that the overwhelming majority of results are insignificant proves the wisdom of the presumption of chance.
+The prevalence of insignificance also explains why postdocs end up perishing like fruit flies rather than publishing.

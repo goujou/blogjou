@@ -1,0 +1,59 @@
+---
+title: "Modified source-sink dynamics govern resource exchange in ectomycorrhizal symbiosis"
+date: 2023-11-09
+doi: 10.1111/nph.19259
+author:
+    - Laura M. Bogar
+---
+## Summary
+Symbiosis between tree roots and fungi as a trade explains mutualism development on evolutionary timescale but not experimental results.
+Instead think of it as source-sink dynamics.
+
+## I. Introduction
+- sometimes C invest and N return are uncorrelated or even negatively correlated
+- reward schemes depend on the scale
+
+## II. Source-sink dynamics remain a useful model for resource movement
+- **source-sink dynamics**: flow from high concentration to low concentration
+- gradient and conductivity govern speed
+- fungal biomass drives C sink strength which can lead to positive feedback
+- fungi can monompolize N if it's available at high level, induce artificial N scarcity
+- nutrients and water also move according to source-sink dynamics
+- plant, fungi, and environment change rates making thinkgs more complex
+
+## III. Beyond source-sink: modifications to resource movement
+- plant and fungi have different interests, modify simple source-sink dynamics
+- plant defense might change resource transfer
+- C transfer sometimes mostly explained by expression of genes involved in defense and stress response
+- high variation of fungi and immune responses lead to a variety of altered source-sink dynamics
+- other functional diversities have also influence
+- molecular tools not yet completely understood
+- fungal competition also a factor in favor of the plant
+
+## IV. Conclusions
+- source-sink dynamics a good first approximation
+- altered by a lot of factors
+
+## Box 1 - Future research directions
+
+1. How does strength of resource gradient affect dynamics?
+    - Physics?
+2. Extent of fungal diversity improving N access of the plant
+    - Plant benefits from fungal competition
+3. At what level of resource do fungi stop helping?
+    - Tragedy of the commons?
+4. Plant sensitivity to shift from helpful to unhelpful fungus
+    - Makes only sense if there are more fungi or fungus-independent nutrient uptake pathway.
+5. Spatial scale on which plant can discriminate between fungal partners. How?
+    - Plays a role for C allocation to different fungi.
+6. Can we predict plant-fungal compatibility from genomic data?
+    - How fast are those genomic gata changing? Does it make sense to identify genes if they change too fast?
+7. Differences in resource transfers with adult trees and seedlings.
+    - Also adult fungi and youg ones? Have different levels of need?
+
+## My remarks
+- no citation of "The mycorrhizal tragedy of the commons"
+- So what do we learn? That it's complex, lots of interests, strategies, external factors. Thanks.
+- We probably learn about the future research directions. This thought is supported by the relatively new references.
+
+
