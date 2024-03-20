@@ -12,7 +12,7 @@ author:
     - Torgny Näsholm
 ---
 ## Abstract
-- trees trade C for N with mycorrhhizal network
+- trees trade C for N with mycorrhizal network
 - this network is the "commons", part of the tragedy
 - trees gain additional N et the expense of neighbours by supplying more C to fungi
 - this can lead to increased N immobilization (in fungal biomass)

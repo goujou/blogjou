@@ -1,0 +1,94 @@
+---
+title: "Carbon sequestration in soils and climate change mitigation - Definitions and pitfalls"
+date: 2024-03-03
+doi: 10.1111/gcb.16983
+author:
+    - Axel Don
+    - Felix Seidel
+    - Jens Leifeld
+    - Thomas Kätterer
+    - Manuel Martin
+    - Sylvia Pellerin
+    - David Emde
+    - Daria Seitz,
+    - Claire Chenu
+---
+## Abstract
+- Carbon sequestration is a potentially misleading buzzword
+- "It's mostly used wrongly", which implies that they are going to propose the *right* way to do it here
+- It's not just about stocks
+- other potential concepts: loss mitigation, negative emissions, climate change mitigation, C storage, C accrual
+
+## 1 | Introduction
+- IPCC (2021) + COP21 (Paris): nature-based solutions
+- "SOC" comprises all organic matter in soils that is dead."
+- C sequestration (in soils) is achieved, when the *net balance is positive*, i.e. soil C stocks increase
+- > **What is ultimately of importance in relation to climate change
+mitigation is the SOC stock change on annual, decennial or centennial timescales, and the spatial domains in which this change occurs.**
+- > Assessing the climate change mitigation potential of additional SOC stocks requires accounting for leakage effects (Lugato et al., 2018). Leakage describes additional GHG emissions caused by climate change mitigation measures that either reduce the strength of a C sink, or turn these measures into sources of GHGs.
+- **What is leakage?**
+- The paper aims at clarifiying the terms:
+    - C sequestration
+    - SOC sequestration
+    - climate change mitigation
+    - negative emissions
+    - SOC storage
+    - SOC accrual
+
+## 2 | Definition of C sequestration: net C uptake of CO$_2$ from the atmosphere
+- > **Carbon sequestration** is defined by the IPCC as the process of increasing the C content of a C pool other than the atmosphere (IPCC, 2001).
+- > *C sequestration in soils:* Process of transferring C from the atmosphere into the soil through plants or other organisms, which is retained as soil organic carbon resulting in a global C stock increase of the soil (based on IPCC, 2001; Olson et al., 2014)
+- > *SOC loss mitigation:* An anthropogenic intervention to reduce SOC losses compared to a business-as-usual scenario
+- > *Negative emissions:* Net removal of CO2 -equivalents of greenhouse gases from the atmosphere 
+- > **Climate change mitigation** has been defined as “a human intervention to reduce emissions or enhance the sinks of greenhouse gases” (IPCC, 2021)
+- > *SOC storage:* The size of the SOC pool (i.e., SOC stock or SOC content)
+- > * SOC accrual:* An increase in SOC stock at a given unit of land, starting from an initial SOC stock or compared to a business-as-
+usual value (does not always result in climate change mitigation or C sequestration in soils)
+- > **C sequestration in soils may not always lead to climate change mitigation, depending on past sink strength or past GHG emissions.**
+
+## 3 | Current use of the term C sequestration
+- just some statistics of use of terminology in literature
+
+# 4 | Pitfalls of using the term *C sequestration* in soils
+# 4.1 | C sequestration in soils versus C loss mitigation
+- Reducing C losses is no sequestration
+- Just a *relative* SOC stock increase wrt some BAU scenario that already loses C is not enough
+- The absolute C stock increase is *SOC accrual*
+- climate mitigation is an active measure to reduce losses compared to a BAU scenario
+
+# 4.2 | C sequestration in soil, SOC storage or SOC stocks?
+- C sequestration is a net flux of C from the atmoshpere to soils and should have dimensions of mass/area/time
+- ** *Remark*: That's basically an instantaneous net flux, that's ridiculuous. To make climate change sense out of it, you do not only need to integrate with respect to time once, but twice from here!**
+- technically, "storage" means both the process of stroring something and the process of being stored
+- SOC accrual does not require teh atmosphere to be the C source, C sequestration in soils, however, does
+
+## 4.3 | C flux or global warming potential
+- >  The common unit to express the effect of GHGs on the climate is CO$_2$-equivalents (CO$_2$ -eq). This converts N$_2$O and CH$_4$ emissions into equivalent units relative to the cumulative radiative forcing of CO$_2$ over a given period, usually 100 years.
+
+# 5 | From C sequestration in soils to negative emissions
+## 5.1 | Permanence of addition soil C storage
+- **Finally**: The time period of stored C is pivotal for its climate impact.
+
+## 5.2 | Leakage can prevent C sequestration in soils from achieving climate change mitigation
+- > Leakage occurs if a measure to enhance SOC stocks leads to an increase in GHG emissions either on site (i.e., from the soil where SOC stocks are increased) or off site.
+- on-site: soil N fertilization might completely offset the additional C sequestration in terms of GHG emissions
+- off-site: for instance, additional energy required, or lower yield that has to be produced somewhere else
+- global scale view is required to establosh true effect of C sequestration on climate
+
+## 5.3 | The temporal dimension of C sequestration: C stocks versus GHG fluxes
+- A permanent measure might lead to initial C accrual, but when the new steady state is reached, now new accrual occurs
+- How long does the initial effect last?
+- Different time scales (30yr vs 100yr) might lead to very different conclusions in term of climate change mitigation potential
+
+# 6. | Conclusions
+- nature-based solutions can mitigate climate change
+- cross-discipline communinication important
+- can only work if terms are clearly defined
+
+# My remarks
+- All in all, "mitigation" is here seen as an active measure to mitigate losses
+- C sequestration (removing C from the atmosphere) is the holy grail
+- It's ridiculuous for this holy grail to ignore the time component and consider instantaneous net fluxes instead. The holy grail should twice be integreated over time.
+- However, they do not see C sequestration as the holy grail for it ignores other GHGs. Climate change mitigation potential includes them.
+- For climate change mitigation, GPW is important.
+
