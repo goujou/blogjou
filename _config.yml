@@ -83,6 +83,9 @@ header_pages:
     - title: PaperJou
       path: paper_blog/index.html
       category: paper_blog
+    - title: "Hochzeit - Boda - Wedding"
+      path: boda/index.html
+      category: boda
     - title: PrivateJou
       path: private_blog/index.html
       category: private_blog
@@ -124,6 +127,10 @@ defaults:
     values:
       category: "paper_blog"
       layout: "paper_blog_post"
+  - scope:
+      path: "boda/*"
+    values:
+      category: "boda"
   - scope:
       path: "private_blog/*"
     values:
