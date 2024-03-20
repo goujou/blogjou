@@ -74,9 +74,6 @@ header_pages:
     - title: BookJou
       path: book_blog/index.html
       category: book_blog   
-    - title: JoyBlog
-      path: joy_blog/index.html
-      category: joy_blog
     - title: MathJou
       path: math_blog/index.html
       category: math_blog
@@ -114,10 +111,6 @@ defaults:
     values:
       category: "book_blog"
       layout: "book_blog_post"
-  - scope:
-      path: "joy_blog/*"
-    values:
-      category: "joy_blog"
   - scope:
       path: "math_blog/*"
     values:

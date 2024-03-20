@@ -19,7 +19,7 @@ Our wedding party consists of three parts:
     Guests are supposed to arrive not later than 13:00.
     The ceremony will last about 45-60 minutes.
 
-- **Wedding party (Friday, 2024-07-12, 15:30)**
+- **Wedding celebration (Friday, 2024-07-12, 15:30)**
 
     The wedding party will take place in [Rebhan's Business und Wellness Hotel](https://hotel-rebhan.de/?lang=en) in Neukenroth/Stockheim.
     The party starts with the arrival of the newly-weds around 16:00 and is planned with an open end.
@@ -65,7 +65,7 @@ The ceremony will last about 45-60 minutes.
     Please carefully check your invitation.
 
 - **Location**
-    The location is a caste from the 14th century, which comes with some consequences.
+    The location is a castle from the 14th century, which comes with some consequences.
     For once, it is located on a small hill and parking is allowed only at the foot of the hill, directly after the entrance gate.
     Only in special cases cars are allowed to drive all the way up to the castle, for instance to deliver bride and groom and other people who can walk badly uphill.
     Please get in touch with us if you needs to drive all the way up.
@@ -108,14 +108,14 @@ Bring the right shoes!
 - **Food**
     There will be small sandwiches upon arrival at the hotel while the guests wait for the newly-weds to arrive.
     Then there will be cake and coffee at around 16:15.
-    Around 19:00 there will be dinner with a buffet of regioal specialties.
+    Around 18:30 there will be dinner with a buffet of regioal specialties.
     There will be a special buffet for children.
 
 - **Beverages**
     There will be a champaign reception upon the arrival of the newly-weds.
     Throughout the entire party there will be beverages available from the bar.
 
-    In case you have special wishes, please inform us as early as possible so that we can advance your request to the hotel.
+    In case you have special wishes, please inform us as early as possible so that we can forward your request to the hotel.
 
 - **Children**
     The hotel can provide two special chairs for toddlers but no additional cushions for children to sit on to reach the table, in case they are too small.
@@ -196,7 +196,12 @@ This train will bring you to your final train destination **Stockheim (Oberfr.)*
 
 ### Berlin airport
 
-    
-    
+---
+
+<br>
+
+### Tipps and tricks
+
+- In Germany the use of cash (€) is very common. Most of the times you will be able to pay by card, but it is safe to always have some cash available. 
 
 
