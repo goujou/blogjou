@@ -83,9 +83,9 @@ header_pages:
     - title: "Hochzeit - Boda - Wedding"
       path: boda/index.html
       category: boda
-    - title: PrivateJou
-      path: private_blog/index.html
-      category: private_blog
+#    - title: PrivateJou
+#      path: private_blog/index.html
+#      category: private_blog
 
 collections:
   books:
