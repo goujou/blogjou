@@ -1,0 +1,19 @@
+body {
+  font-family: "Cambria Math", "Cambria", "Roboto", "Helvetica", "Arial", "sans-serif";
+  background-color: #f8f8f8;
+}
+
+.site-header {
+  background-color: #cdcdcd;
+  border-bottom: 2px solid #424242;
+}
+
+.site-footer {
+  background-color: #cdcdcd;
+  border-top: 2px solid #424242;
+  border-bottom: 5px solid #424242;
+}
+
+a:hover {
+  cursor: pointer;
+}

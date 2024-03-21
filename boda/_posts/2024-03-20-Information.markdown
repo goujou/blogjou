@@ -3,9 +3,11 @@ layout: post
 title: General information
 author: goujou
 date: 2024-03-20
+custom_css:
+- boda
 ---
 
-## General overview
+## Quick overview
 
 Our wedding party consists of three parts:
 
@@ -16,7 +18,7 @@ Our wedding party consists of three parts:
 - **Official wedding ceremony (Friday, 2024-07-12, 13:30)**
 
     The official ceremony will take place at 13:30 at the [castle in Neuhaus-Schierschnitz](https://www.coburg-rennsteig.de/poi/burg-neuhaus).
-    Guests are supposed to arrive not later than 13:00.
+    Guests are supposed to arrive no later than 13:00.
     The ceremony will last about 45-60 minutes.
 
 - **Wedding celebration (Friday, 2024-07-12, 15:30)**
@@ -94,7 +96,7 @@ The ceremony will last about 45-60 minutes.
 
 <br>
 
-## Friday, 2024-07-12, 16:00
+## Friday, 2024-07-12, 15:30
 We will have the party with all invited guests with sandwiches, champain reception, coffee and cake, dinner, and snacks at the hotel.
 The party involves music by DJ *Agent Mulder* alongside with lots of dancing.
 Bring the right shoes!
@@ -144,22 +146,20 @@ From personal experience, the easiest arrival to the hotel from any airport in G
 The train station closest to the hotel is the station **[Stockheim (Oberfr.)](https://www.google.com/maps/place/96342+Stockheim,+Germany/@50.3068948,11.2814374,17.96z/data=!4m6!3m5!1s0x47a162d0c96bc825:0x12f2c3af610540a9!8m2!3d50.3067809!4d11.2818069!16s%2Fm%2F02q3zjx?authuser=0&entry=ttu)**.
 Please do not be shocked if it does not look like you would imagine a train station, it's basically just a stop in the middle of nowhere.
 The station is not barrier-free, please inform us if you require a barrier-free solution.
-Please be aware that there are several different train stops in Germany called **Stockheim**.
+Please be aware that there are several different train stops in Germany called *Stockheim*.
 Make sure to select the right one, as mentioned above.
-This train station is also not served by high-speed trains (ICE), so at some point you will have to change to a regional train (RE = Regional-Express, or the slowest version RB = Regional-Bahn).
+This train station is also not served by high-speed trains (ICE), so at some point you will have to change to a regional train (RE = Regional-Express or the slowest version RB = Regional-Bahn).
 
 From there, a hotel shuttle service can pick you up for 15,- € if you have informed the hotel in advance about your arrival time by also mentioning our wedding (Metzler and Guardia Velarde).
 Walking from the train station to the hotel is no viable option.
 Please tell the hotel staff about any unexpected changes as soon as possible.
 Changes on short notice are best done by phone, the staff speaks English.
 
-**Hotel contact**: <info@hotel-rebhan.de>, +49 (0) 9265 955 6100
+**Hotel contact** <info@hotel-rebhan.de>, +49 (0) 9265 955 6100
 
 ---
 
-<br>
-
-**Attention**: Please be aware that no matter at which airport you land, it will take you several hours (probably at least four to five, it can easily be more) to reach the hotel.
+**Attention** Please be aware that no matter at which airport you land, it will take you several hours (probably at least four to five, it can easily be more) to reach the hotel.
 If you plan to attend any event of our wedding party, we would advise you to plan one entire day for the travel the day before that event.
 
 ---

@@ -4,9 +4,16 @@
     {% include mathjax.html %}
     {% include math_header.html %}
   </div>
-  {% include header.html %}
+  {%- include head.html -%}
   <body>
-    {%- include head.html -%}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.css"></script>
+    {% if page.custom_css %}
+      {% for css_file in page.custom_css %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ css_file }}.css"></script>
+      {% endfor %}
+    {% endif %}
+
+    {% include header.html %}
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
@@ -43,5 +50,4 @@
 
     {%- include footer.html -%}
   </body>
-
 </html>
