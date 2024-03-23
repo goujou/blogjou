@@ -2,7 +2,7 @@
 layout: post
 title: Good to know
 author: goujou
-date: 2024-03-17
+date: 2024-03-16
 custom_css:
 - boda
 ---
