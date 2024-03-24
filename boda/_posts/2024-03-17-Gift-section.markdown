@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Gift section
+title: Sección de regalos
 author: goujou
 date: 2024-03-17
 custom_css:
 - boda
 ---
 
-For us, it's presence over presents.
-Sharing our day with you is what matters most, but if you would like to support us in putting together our future as husband and wife, you are very welcome to make a monetary contribution either in cash or to one of the following bank accounts:
+Para nosotros, es la presencia ante todo.
+Compartir nuestro día contigo es lo más importante, pero si quieres apoyarnos a construir nuestro futuro como recién casados, eres bienvenido a hacer una contribución monetaria ya sea en efectivo o a una de las siguientes cuentas bancarias:
 
 - **Lorena Guardia Velarde**
 
