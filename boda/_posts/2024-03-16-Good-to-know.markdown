@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Good to know
+title: Extra tips
 author: goujou
 date: 2024-03-16
 custom_css:
 - boda
 ---
-### Good to know
+## Extra tips
 
-- In Germany the use of cash (€) is very common. Most of the times you will be able to pay by card, but it is safe to always have some cash available. 
-- Germany is mostly an Uber-free zone, only regular taxis officially exist.
-- On Tuesday (2024-07-09, Munich) and Wednesday (2024-07-10, Dortmund) there will be the semifinals and on Sunday (2024-07-14, Berlin) the final of the European Football Championship in Germany.
+- En Alemania es muy común el uso de efectivo (€). La mayoría de las veces podrás pagar con tarjeta, pero es mejor tener siempre algo de efectivo disponible.
+- Alemania es, en su mayor parte, una zona sin Uber, oficialmente sólo existen taxis regulares.
+- El martes (09-07-2024, Múnich) y miércoles (10-07-2024, Dortmund) se disputarán las semifinales y el domingo (14-07-2024, Berlín) la final de la Eurocopa de fútbol en Alemania.
 
