@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Recepción y fiesta (viernes, 2024-07-12, 15:30)author: goujou
+title: Recepción y fiesta (viernes, 2024-07-12, 15:30)
+author: goujou
 date: 2024-03-20
 custom_css:
 - boda
