@@ -7,7 +7,7 @@ custom_css:
 - boda
 ---
 
-### Gut zu wissen
+## Gut zu wissen
 
 - In Deutschland ist die Verwendung von Bargeld (€) weit verbreitet. In den meisten Fällen kann ma  mit Karte bezahlen, es ist jedoch sicher, immer etwas Bargeld zur Verfügung zu haben.
 - Deutschland ist größtenteils eine Uber-freie Zone, es gibt offiziell nur reguläre Taxis.
