@@ -1,113 +1,108 @@
 ---
 layout: post
-title: Transportation
+title: Logistik
 author: goujou
 date: 2024-03-18
 custom_css:
 - boda
 ---
+## Transport zum und vom Hotel
+Egal von welchem Flughafen, zum Hotel zu gelangen kann als ein kleines Abenteuer betrachtet werden.
+Aus persönlicher Erfahrung ist die Anreise zum Hotel von jedem Flughafen in Deutschland aus am einfachsten von München aus (oder noch besser, wenn Du einen Flug findest, der dort landet, von Nürnberg).
 
-## Transportation to and from the hotel
-To arrive at the hotel from any airport in Germany is to be conceived of an adventure.
-From personal experience, the easiest arrival to the hotel from any airport in Germany is from Munich (or even better, if you find a flight that lands there, Nuremberg).
+Der dem Hotel am nächsten gelegene Bahnhof ist **[Stockheim (Oberfr)](https://www.google.com/maps/place/96342+Stockheim,+Germany/@50.3068948,11.2814374,17.96z/data= !4m6!3m5!1s0x47a162d0c96bc825:0x12f2c3af610540a9!8m2!3d50.3067809!4d11.2818069!16s%2Fm%2F02q3zjx?authuser=0&entry=ttu)**.
+Bitte beachte, dass es zwar nicht wie ein normaler Bahnhof aussieht, es aber in der Tat einer ist.
+Der Bahnhof ist nicht barrierefrei, bitte informiere uns, wenn Du eine barrierefreie Lösung wünschst.
+Bitte beachte weiterhin, dass es in Deutschland mehrere verschiedene Haltestellen mit der Bezeichnung *Stockheim* gibt, und stelle sicher,  dass Du, wie oben erwähnt, die richtige auswählst.
+Dieser Bahnhof wird nicht von Hochgeschwindigkeitszügen (ICE) angefahren, so dass man irgendwann auf einen Regionalzug (RE = Regional-Express bzw. die langsamste Variante RB = Regional-Bahn) umsteigen muss.
 
-The train station closest to the hotel is the station **[Stockheim (Oberfr)](https://www.google.com/maps/place/96342+Stockheim,+Germany/@50.3068948,11.2814374,17.96z/data=!4m6!3m5!1s0x47a162d0c96bc825:0x12f2c3af610540a9!8m2!3d50.3067809!4d11.2818069!16s%2Fm%2F02q3zjx?authuser=0&entry=ttu)**.
-Please beware that although it might not look like a regular train station, it is one.
-The station is not barrier-free, please inform us if you require a barrier-free solution.
-Please be aware that there are several different train stops in Germany called *Stockheim*.
-Make sure to select the right one, as mentioned above.
-This train station is also not served by high-speed trains (ICE), so at some point you will have to change to a regional train (RE = Regional-Express or the slowest version RB = Regional-Bahn).
+Von dort aus ist eine Fortsetzung zu Fuß zum Hotel keine praktikable Option.
+Bitte vereinbare einen Abholservice mit dem Hotel unter Angabe der Hochzeit von Metzler und Guardia Velarde, und teile dem Hotelpersonal unerwartete Änderungen so schnell wie möglich mit.
+Kurzfristige Änderungen werden am Besten telefonisch erledigt.
 
-From there, walking to the hotel is not a viable option.
-Please organize a pick-up service with the hotel mentioning the wedding of Metzler and Guardia Velarde.
-Please tell the hotel staff about any unexpected changes as soon as possible.
-Changes on short notice are best done by phone, the staff speaks English.
-
-**Hotel contact** <info@hotel-rebhan.de>, +49 (0) 9265 955 6100
+**Hotelkontakt** <info@hotel-rebhan.de>, +49 (0) 9265 955 6100
 
 ---
 
-**Attention** Please be aware that no matter at which airport you land, it will take you several hours (probably at least four to five, it can easily be more) to reach the hotel.
-If you plan to attend any event of our wedding party, we would advise you to plan one entire day for the travel the day before that event.
+**Achtung** Egal an welchem Flughafen Du landest, die Anreise zum Hotel wird mehrere Stunden (wahrscheinlich mindestens vier bis fünf, es kann auch länger sein) in Anspruch nehmen.
+Wenn Du planst, an einer Veranstaltung unserer Hochzeitsfeier teilzunehmen und per Flugzeug anreist, empfehlen wir, einen ganzen Tag für die Reise am Tag vor dieser Veranstaltung einzuplanen.
+
 
 ---
 
 <br>
 
 ### Deutsche Bahn (DB)
-Although DB is not always as reliable as one would expect, luckily our wedding will take place between the semifinals and the final of the European Football Championship in Germany.
-So we are positive that trains (and also flights) will be on time.
+Obwohl die DB nicht immer so zuverlässig ist, wie man es erwarten würde, wird unsere Hochzeit glücklicherweise zwischen dem Halbfinale und dem Finale der Fußball-Europameisterschaft in Deutschland stattfinden.
+Wir sind daher zuversichtlich, dass die Züge (und auch die Flüge) pünktlich sein werden.
 
-Planning trips with DB and buying tickets works best from their [website](https://int.bahn.de/en) or from the **DB Navigator App** ([App Store](https://apps.apple.com/se/app/db-navigator/id343555245), [Google Play](https://play.google.com/store/apps/details?id=de.hafas.android.db&hl=sv&pli=1)).
-Both offer an English language option.
+Die Planung von Fahrten mit der DB und der Kauf von Fahrkarten funktioniert am besten über deren [Website](https://www.bahn.de/?lang=de) oder über die **DB Navigator App** ([App Store](https://apps.apple.com/se/app/db-navigator/id343555245), [Google Play](https://play.google.com/store/apps/details?id=de.hafas.android.db&hl=sv&pli=1)) .
 
-Fast trains are called Intercity Express (ICE) and the earlier you book them the better are your chances to be offered a reasonable (special) price.
-Such special prices, however, usually come with the disadvantage of *Zugbindung*, which means that you are entitled to take only those particular trains mentioned on the ticket.
-In case of cancellations and delays you can talk to the personnel and they will liberate you from this restriction.
+Schnellzüge heißen Intercity Express (ICE) und je früher man bucht, desto besser sind die Chancen, einen günstigen (Sonder-)Preis angeboten zu bekommen.
+Solche Sondertarife haben jedoch meist den Nachteil der Zugbindung, was bedeutet, dass man berechtigt ist nur die auf der Fahrkarte genannten Züge zu nutzen.
+Im Falle von Stornierungen und Verspätungen kann man mit dem Personal sprechen und wird von dieser Einschränkung befreit.
 
-Slower and usually cheaper trains are called Regional-Express (RE) and Regional-Bahn (RB). REs are usually quite fast, while RBs stop at every village.
-In order to get to **Stockheim (Oberfr)** you will have to take either an RE or an RB for the last part of your trip.
-REs become particularly handy from Munich.
+Langsamere und meist günstigere Züge heißen Regional-Express (RE) und Regional-Bahn (RB). REs sind normalerweise recht schnell, während RBs an jedem Dorf anhalten.
+Um nach **Stockheim (Oberfr)** zu gelangen, musst Du für den letzten Teil Ihrer Reise entweder einen RE oder einen RB nehmen.
+Von München aus sind REs besonders praktisch.
 
-DB offers the so-called **[Bayern-Ticket](https://int.bahn.de/en/offers/regional/regional-day-ticket-bavaria)**, which is valid from 9:00 in the morning until 3:00 in the morning of the next days for up to five persons (1 person = 29 €, 5 persons = 69 €).
-This ticket has the only restriction that you cannot use fast trains (ICEs).
-However, it covers the S-Bahn from Munich airport to Munich central station, and all REs or RBs from Munich via Nuremberg to Stockheim (Oberfr).
+Die DB bietet das sogenannte **Bayern-Ticket** an, das ab 9:00 Uhr gültig ist bis 3:00 Uhr am Morgen des nächsten Tages und für bis zu fünf Personen (1 Person = 29 €, 5 Personen = 69 €) erworben werden kann.
+Die einzige Einschränkung bei diesem Ticket besteht darin, dass keine Schnellzüge (ICEs) genutzt werden können.
+Es umfasst jedoch die S-Bahn vom Flughafen München bis zum Hauptbahnhof München sowie alle REs oder RBs von München über Nürnberg nach Stockheim (Oberfr).
 
-Both on the website and in the DB Navigator App, the default setting is *Show fastest connections*.
-This will automatically show you all connections that include an ICE and sometimes surpress the connections that you are allowed to use with the *Bayern-Ticket*.
-It can be of good use to deactivate this default option.
-Our recent experience also showed that it was useful to explicitly add stopovers at Munich central station and Nuremberg, coming from Munich airport.
+Sowohl auf der Website als auch in der DB Navigator App ist die Standardeinstellung *Schnellste Verbindungen anzeigen*.
+Dabei werden automatisch alle Verbindungen angezeigt, die einen ICE beinhalten, und teilweise die Verbindungen unterdrückt, die man mit dem *Bayern-Ticket* nutzen darf.
+Es kann sinnvoll sein, diese Standardoption zu deaktivieren.
+Unsere jüngsten Erfahrungen haben auch gezeigt, dass es sinnvoll ist, vom Flughafen München kommend explizit Zwischenstopps am Münchener Hauptbahnhof und Nürnberg hinzuzufügen.
 
-Other train types are Intercity (IC, without express) and Eurocity (EC).
-Neither of the two would be covered by the *Bayern-Ticket*.
-
----
-
-<br>
-
-### Munich airport (MUC)
-If you land at **Munich airport**, you can take the S-Bahn (which looks like a train) from the S-Bahn station right outside the airport to reach **Munich central station**.
-At the airport just follow the signs with a white S on green ground.
-For instance, lines S1 and S8 serve the central station.
-
-From Munich central station, your next step is to reach **Nuremberg**.
-To that end, you can either take RE1 or an ICE.
-
-From Nuremberg, the best option is to take RE14 toward Saalfeld.
-This train will bring you to your final train destination **Stockheim (Oberfr)**.
-
-Please carefully check available train connections that can match your airport arrival times on the DB website or in the DB Navigator App.
+Weitere Zugtypen sind Intercity (IC, ohne Express) und Eurocity (EC).
+Beide wären mit dem *Bayern-Ticket* nicht abgedeckt.
 
 ---
 
 <br>
 
-### Frankfurt airport (FRA)
-From Frankfurt airport, always aim for **Bamberg**.
-From Bamberg you can take RE14 to **Stockheim (Oberf)**.
-Possible ways to reach Bamberg are direct ICEs, ICEs to **Würzburg** with subsequent ICE, RE, or RB to Bamberg.
-Another option is to take S8 to **Frankfurt Flughafen Regionalbahnhof** and from there RE55 to Bamerg.
+### Flughafen München (MUC)
+Wenn Du am **Flughafen München** landest, kannst Du vom S-Bahnhof direkt vor dem Flughafen mit der S-Bahn (die wie ein Zug aussieht) zum **Münchener Hauptbahnhof** fahren.
+Folge am Flughafen einfach den Schildern mit einem weißen S auf grünem Grund.
+Beispielsweise bedienen die Linien S1 und S8 den Hauptbahnhof.
 
-Please carefully check available train connections that can match your airport arrival times on the DB website or in the DB Navigator App.
+Vom Münchner Hauptbahnhof aus erreichst Du im nächsten Schritt **Nürnberg**.
+Zu diesem Zweck kannst Du entweder den RE1 oder einen ICE nehmen.
+
+Von Nürnberg aus nimmst Du am besten den RE14 Richtung Saalfeld.
+Dieser Zug bringt Dich zu Deiner Endhaltestelle **Stockheim (Oberfr)**.
+
+Bitte prüfe sorgfältig die verfügbaren Zugverbindungen, die zu Deinen Ankunftszeiten am Flughafen passen, auf der DB-Website oder in der DB Navigator App.
 
 ---
 
 <br>
 
-### Berlin airport (BER)
-From Berlin airport your first goal should be either **Berlin Südkreuz** or **Berlin central station**.
-They are one stop apart from each other, first you would get to Südkreuz, but maybe you like the central station with way more shopping and food options more.
-This first stage can sometimes be achieved by an IC, an RE, or an S (e.g., RE8 or RE17).
+### Flughafen Frankfurt (FRA)
+Vom Flughafen Frankfurt aus, versuche immer erst einmak **Bamberg** zu erreichen.
+Von Bamberg aus kannst Du dann mit dem RE14 nach **Stockheim (Oberf)** fahren.
+Mögliche Anreisemöglichkeiten nach Bamberg sind direkte ICEs, ICEs nach **Würzburg** mit anschließendem ICE, RE oder RB nach Bamberg.
+Eine weitere Möglichkeit besteht darin, mit der S8 bis zum **Frankfurt Flughafen Regionalbahnhof** zu fahren und von dort mit der RE55 nach Bamerg.
 
-In case you book early and can get an affordable ICE ticket, then your next stop would be **Bamberg** (take an ICE toward Munich).
-From Bamberg you then take RE14 toward Saalfeld and get off in **Stockheim (Oberf)**.
-Connections without ICE are not recommendable, but could look like 
+Bitte prüfe sorgfältig die verfügbaren Zugverbindungen, die zu Deinen Ankunftszeiten am Flughafen passen, auf der DB-Website oder in der DB Navigator App.
 
-- Berlin central station - Erfurt - Saalfeld - Stockheim (Oberfr)
+---
 
-Coming from Berlin you should always aim at reaching either Saalfeld or Bamberg and continue from there with RE14 to Stockheim (Oberf), wich is located in the middle between Saalfeld and Bamberg.
-Resonable intermediate stops could be Wittenberg, Erfurt, Halle (an der Saale), Jena, Leipzig, Chemnitz.
+<br>
 
-Please carefully check available train connections that can match your airport arrival times on the DB website or in the DB Navigator App.
+### Flughafen Berlin-Brandenburg (BER)
+Vom Flughafen Berlin aus sollte das erste Ziel entweder **Berlin Südkreuz** oder **Berliner Hauptbahnhof** sein.
+Die beiden liegen jeweils eine Haltestelle voneinander entfernt. Zuerst kommt man zum Südkreuz, aber vielleicht gefällt Dir der Hauptbahnhof mit viel mehr Einkaufs- und Essensmöglichkeiten besser.
+Diese erste Stufe kann manchmal durch einen IC, einen RE oder eine S-Bahn (z. B. RE8 oder RE17) erreicht werden.
 
+Wenn Du frühzeitig buchst und ein günstiges ICE-Ticket erhätls, ist der nächster Halt **Bamberg** (mit dem ICE Richtung München).
+Von Bamberg aus geht es dann dann mit dem RE14 Richtung Saalfeld nach **Stockheim (Oberf)**.
+Verbindungen ohne ICE sind nicht empfehlenswert, könnten aber so oder ähnlich aussehen:
 
+- Berlin Hauptbahnhof - Erfurt - Saalfeld - Stockheim (Oberfr)
+
+Von Berlin kommend sollte man immer entweder Saalfeld oder Bamberg anstreben und von dort mit dem RE14 nach Stockheim (Oberf) weiterfahren, was in der Mitte zwischen Saalfeld und Bamberg liegt.
+Sinnvolle Zwischenstopps könnten Wittenberg, Erfurt, Halle (an der Saale), Jena, Leipzig, Chemnitz sein.
+
+Bitte prüfe sorgfältig die verfügbaren Zugverbindungen, die zu Deinen Ankunftszeiten am Flughafen passen, auf der DB-Website oder in der DB Navigator App.
