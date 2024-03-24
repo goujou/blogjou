@@ -10,7 +10,7 @@ custom_css:
 Egal von welchem Flughafen, zum Hotel zu gelangen kann als ein kleines Abenteuer betrachtet werden.
 Aus persönlicher Erfahrung ist die Anreise zum Hotel von jedem Flughafen in Deutschland aus am einfachsten von München aus (oder noch besser, wenn Du einen Flug findest, der dort landet, von Nürnberg).
 
-Der dem Hotel am nächsten gelegene Bahnhof ist **[Stockheim (Oberfr)](https://www.google.com/maps/place/96342+Stockheim,+Germany/@50.3068948,11.2814374,17.96z/data= !4m6!3m5!1s0x47a162d0c96bc825:0x12f2c3af610540a9!8m2!3d50.3067809!4d11.2818069!16s%2Fm%2F02q3zjx?authuser=0&entry=ttu)**.
+Der dem Hotel am nächsten gelegene Bahnhof ist **[Stockheim (Oberfr)](https://www.google.com/maps/place/96342+Stockheim,+Germany/@50.3068948,11.2814374,17.96z/data=!4m6!3m5!1s0x47a162d0c96bc825:0x12f2c3af610540a9!8m2!3d50.3067809!4d11.2818069!16s%2Fm%2F02q3zjx?authuser=0&entry=ttu)**.
 Bitte beachte, dass es zwar nicht wie ein normaler Bahnhof aussieht, es aber in der Tat einer ist.
 Der Bahnhof ist nicht barrierefrei, bitte informiere uns, wenn Du eine barrierefreie Lösung wünschst.
 Bitte beachte weiterhin, dass es in Deutschland mehrere verschiedene Haltestellen mit der Bezeichnung *Stockheim* gibt, und stelle sicher,  dass Du, wie oben erwähnt, die richtige auswählst.
