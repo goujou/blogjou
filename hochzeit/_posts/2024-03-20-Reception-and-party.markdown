@@ -1,30 +1,30 @@
 ---
 layout: post
-title: Reception and party (Friday, 2024-07-12, 15:30)
+title: Empfang und Feier (Freitag, 2024-07-12, 15:30)
 author: goujou
 date: 2024-03-20
 custom_css:
 - boda
 ---
 
-## Friday, 2024-07-12, 15:30
-We will have the reception and party with all invited guests at the hotel.
-The party will include food and drinks and music by DJ *Agent Mulder* alongside with lots of dancing.
-Bring the right shoes!
+## Freitag, 12.07.2024, 15:30 Uhr
+Wir werden den Empfang und die Party mit allen geladenen Gästen im Hotel veranstalten.
+Die Party umfasst Essen und Getränke sowie Musik von DJ *Agent Mulder* und viel Tanz.
+Bring das richtige Schuhwerk mit!
 
-- **People**
-    Everyone invited to our wedding.
+- **Gäste**
+     Alle, die zu unserer Hochzeit eingeladen sind (und kommen).
 
-- **Location**
-    The wedding party takes places in [Rebhan's Business und Wellness Hotel](https://hotel-rebhan.de/?lang=en) in Neukenroth/Stockheim.
+- **Örtlichkeit**
+     Die Hochzeitsfeier findet im [Rebhan's Business und Wellness Hotel](https://hotel-rebhan.de/?lang=de) in Neukenroth/Stockheim statt.
 
-- **Food and beverages**
-    For dinner there will be a buffet with regional specialties and a special kids buffet.
+- **Essen und Getränke**
+     Zum Abendessen gibt es ein Buffet mit regionalen Spezialitäten und ein spezielles Kinderbuffet.
 
-    In case you have any dietary restrictions, please inform us as early as possible.
+     Solltest Du ernährungsbedingte Einschränkungen haben, teile uns dies bitte so früh wie möglich mit.
 
-- **Children**
-    The hotel can provide two special chairs for toddlers but no additional cushions for children to sit on to reach the table, in case they are too small.
-    There will be an additional garden (outside) or room (inside) for children to play.
+- **Kinder**
+     Das Hotel stellt zwei spezielle Stühle für Kleinkinder zur Verfügung, jedoch keine zusätzlichen Sitzkissen, auf denen Kinder sitzen und den Tisch erreichen können, falls sie zu klein sind.
+     Es wird einen zusätzlichen Gartenbereich (außen) oder einen Raum (innen) geben, in denen Kinder spielen können.
 
 
