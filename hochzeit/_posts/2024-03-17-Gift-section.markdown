@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Gift section
+title: Geschenkbereich
 author: goujou
 date: 2024-03-17
 custom_css:
 - boda
 ---
 
-For us, it's presence over presents.
-Sharing our day with you is what matters most, but if you would like to support us in putting together our future as husband and wife, you are very welcome to make a monetary contribution either in cash or to one of the following bank accounts:
+Für uns geht Anwesenheit über Geschenke.
+Das Wichtigste ist, dass wir unseren Tag mit Dir teilen, aber wenn Du uns dabei unterstützen möchtest, unsere gemeinsame Zukunft als Ehepaar zu gestalten, freuen wir uns ueber eine kleine Geldspende entweder in bar oder auf eines der folgenden Bankkonten:
 
 - **Lorena Guardia Velarde**
 
