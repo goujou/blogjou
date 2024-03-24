@@ -1,44 +1,41 @@
 ---
 layout: post
-title: Wedding ceremony (Friday, 2024-07-12, 13:30)
+title: Offizielle feierliche Trauung (Freitag, 2024-07-12, 13:30)
 author: goujou
 date: 2024-03-21
 custom_css:
 - boda
 ---
 
-## Friday, 2024-07-12, 13:30
-The official ceremony will take place at 13:30 at the [castle in Neuhaus-Schierschnitz](https://www.coburg-rennsteig.de/poi/burg-neuhaus).
-**Guests are supposed to arrive no later than 13:00.**
-The ceremony will last about 45-60 minutes.
+## Freitag, 12.07.2024, 13:30 Uhr
+Die offizielle feierliche Trauung findet um 13:30 Uhr auf der [Burg in Neuhaus-Schierschnitz](https://www.coburg-rennsteig.de/poi/burg-neuhaus) statt.
+**Gäste sollten bis spätestens 13:00 Uhr eintreffen.**
+Die Zeremonie dauert etwa 45-60 Minuten.
 
-- **People**
-    The castle allows no more than 50 guests, which means that some party guests will not be able to follow the official ceremony.
-    Please carefully check your invitation.
+- **Gäste**
+     Die Burg lässt nicht mehr als 50 Gäste zu, was bedeutet, dass einige Partygäste nicht an der offiziellen Zeremonie teilhaben können.
+     Bitte überprüfe Deine Einladung sorgfältig.
 
-- **Location**
-    The location is a castle from the 14th century, which comes with some consequences.
-    For once, it is located on a small hill and parking is allowed only at the foot of the hill, to the right directly after the entrance gate.
-    Only in special cases cars are allowed to drive all the way up to the castle, for instance to deliver bride and groom and other people who can walk badly uphill.
-    Please get in touch with us if you needs to drive all the way up.
-    Keep in mind that an uphill walk of about five minutes can become cumbersome depending on the type of shoes you choose.
+- **Örtlichkeit**
+     Die Burg ist aus dem 14. Jahrhundert, was einige Konsequenzen mit sich bringt.
+     Sie liegt auf einem kleinen Hügel und das Parken ist nur am Fuße des Hügels, rechts direkt nach dem Eingangstor, gestattet.
+     Nur in Ausnahmefällen dürfen Autos bis zur Burg hinauffahren, etwa um das Brautpaar und Personen, die schlecht zu Fuß sind, abzuliefern.
+     Bitte kontaktiere uns, wenn Du den ganzen Weg nach oben fahren musst.
+     Bedenke ebenfalls, dass je nach Schuhwerk ein etwa fünfminütiger Aufstieg sehr mühsam werden kann.
 
-- **Beverages**
-    The [Förderverein Burg Neuhaus](https://foerderverein-burg-neuhaus.de/) will offer beer and alcohol-free beverages as well as some sparkling wine after the ceremony.
+- **Getränke**
+     Der [Förderverein Burg Neuhaus](https://foerderverein-burg-neuhaus.de/) bietet nach der Trauung Bier und alkoholfreie Getränke sowie etwas Sekt an.
 
-- **Children**
-    Due to our setting at the castle accommodating up to 50 guests, we kindly ask that only immediate familiy children (Felix, Clara, Bastian, Amelie) join us for the ceremony.
-    We will arange a child care for the other little ones at the hotel in the meanwhile.
-    Should you have any concerns or questions or want to lend us a hand, feel free to reach out to us.
+- **Kinder**
+     Da die Burg nur Platz für bis zu 50 Gäste bietet, bitten wir darum, dass nur Kinder aus der unmittelbaren Familie (Felix, Clara, Bastian, Amelie) an der Zeremonie teilnehmen.
+     Für die anderen Kleinen werden wir in der Zwischenzeit eine Kinderbetreuung im Hotel organisieren.
+     Bei Bedenken oder Fragen haben oder einem Hilfsangebot zur Kinderbetreuung, kannst Du Dich gerne an uns wenden.
 
+- **Logistik**
+     Wir organisieren den Transport vom Hotel zur Burg mit Abfahrt vom Hotel um 12:45 Uhr.
+     Gästen, die ihre Anreise zur Burg selbst organisieren, wird empfohlen, nicht später als 13:00 Uhr auf der Burg anzkommen.
+     Nach der Zeremonie wird es einen organisierten Service geben, der die Gäste zurück ins Hotel zur Hochzeitsfeier bringt.
 
-- **Transportation**
-    We will organize the transport from the hotel to the castle with departure at the hotel at 12:45.
-    Guests who organize their arrival to the castle on their own are advised not to arrive later than 13:00 at the castle.
-    After the ceremony there will be an organized service to bring the guests back to the hotel to the wedding party.
-
-    Please let us know whether you plan to use the organized transportation service to or from the castle or both to simplify our planning.
-
-
+     Bitte teile uns mit, ob Du den organisierten Transportservice zur oder von der Burg oder beides nutzen möchtest, um unsere Planung zu vereinfachen.
 
 
