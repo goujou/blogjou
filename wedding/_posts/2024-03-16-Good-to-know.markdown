@@ -6,7 +6,7 @@ date: 2024-03-16
 custom_css:
 - boda
 ---
-### Good to know
+## Good to know
 
 - In Germany the use of cash (€) is very common. Most of the times you will be able to pay by card, but it is safe to always have some cash available. 
 - Germany is mostly an Uber-free zone, only regular taxis officially exist.
