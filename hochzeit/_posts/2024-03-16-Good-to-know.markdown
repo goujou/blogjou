@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Good to know
+title: Gut zu wissen
 author: goujou
 date: 2024-03-16
 custom_css:
 - boda
 ---
-### Good to know
 
-- In Germany the use of cash (€) is very common. Most of the times you will be able to pay by card, but it is safe to always have some cash available. 
-- Germany is mostly an Uber-free zone, only regular taxis officially exist.
-- On Tuesday (2024-07-09, Munich) and Wednesday (2024-07-10, Dortmund) there will be the semifinals and on Sunday (2024-07-14, Berlin) the final of the European Football Championship in Germany.
+### Gut zu wissen
+
+- In Deutschland ist die Verwendung von Bargeld (€) weit verbreitet. In den meisten Fällen kann ma  mit Karte bezahlen, es ist jedoch sicher, immer etwas Bargeld zur Verfügung zu haben.
+- Deutschland ist größtenteils eine Uber-freie Zone, es gibt offiziell nur reguläre Taxis.
+- Am Dienstag (09.07.2024, München) und Mittwoch (10.07.2024, Dortmund) kommt es zum Halbfinale und am Sonntag (14.07.2024, Berlin) zum Finale der Fußball-Europameisterschaft in Deutschland.
 
