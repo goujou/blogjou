@@ -13,9 +13,8 @@ La ceremonia oficial tendrá lugar a las 13:30 en el [castillo de Neuhaus-Schier
 La ceremonia durará entre 45 y 60 minutos.
 
 - **Invitados**
-    El castillo no permite más de 50 invitados, lo que significa que algunos invitados a la fiesta no asistirán a la ceremonia oficial.
-    Por favor revise cuidadosamente su invitación.
-
+    In the Invitados section: Dado al aforo del castillo, sólo 50 invitados podrán ingresar, lo que significa que algunos invitados a la fiesta no asistirán a la ceremonia oficial.  Por favor revisa cuidadosamente tu invitación (bold)
+  
 - **Ubicación**
     El lugar es un castillo del siglo XIV, por lo que tiene algunas restricciones.
     Está situado en una pequeña colina y sólo se permite aparcar al pie de la colina, a la derecha, después de la puerta de entrada.
