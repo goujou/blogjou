@@ -24,5 +24,7 @@ En ese caso, ten en cuenta que no podemos garantizar un medio de transporte senc
 
 - [Pensión/Ferienwohnungen Bühling](https://www.thueringen.info/pension-buehling.html) en Föritz
 - [Hotel Kastanienhof](https://www.hotel.de/de/der-kastanienhof/hotel-335835/) en Neuhaus-Schierschnitz
+- [Gasthaus Fillweber](http://gasthaus-fillweber.de/) in Neukenroth/Stockheim
+
 
 
