@@ -12,7 +12,7 @@ custom_css:
 Wir empfehlen, Deinen Aufenthalt im [Rebhan's Business und Wellness Hotel](https://hotel-rebhan.de/?lang=de) in Neukenroth/Stockheim zu planen, wo auch die Hochzeitsfeier stattfindet.
 Von dort organisieren wir einen Shuttle-Transfer zum und vom Sportplatz am Donnerstag sowie zur und von der Trauung auf der Burg am Freitag.
 Für die Hochzeitsgäste haben wir einige Räume vorreserviert.
-Du kannst eines dieser Zimmer gemäß deren Preisliste buchen, indem Du Dich an das Hotel wendest und die Hochzeit von Metzler und Guardia Velarde eräwhnst.
+Du kannst eines dieser Zimmer gemäß deren Preisliste buchen, indem Du Dich an das Hotel wendest und die Hochzeit von Metzler und Guardia Velarde erwähnst.
 Es stehen Einzel- und Doppelzimmer zur Verfügung. Auf Anfrage können Zustellbetten hinzugefügt werden.
 
 **Hotelkontakt** <info@hotel-rebhan.de>, +49 (0) 9265 955 6100
@@ -24,5 +24,6 @@ Bitte beachte in diesem Fall, dass wir keine einfache Transportmöglichkeit zwis
 
 - [Pension/Ferienwohnungen Bühling](https://www.thueringen.info/pension-buehling.html) in Föritz
 - [Hotel Kastanienhof](https://www.hotel.de/de/der-kastanienhof/hotel-335835/) in Neuhaus-Schierschnitz
+- [Gasthaus Fillweber](http://gasthaus-fillweber.de/) in Neukenroth/Stockheim
 
 
