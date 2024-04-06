@@ -24,5 +24,7 @@ In that case, please take into account that we cannot guarantee a simple means o
 
 - [Pension/Ferienwohnungen Bühling](https://www.thueringen.info/pension-buehling.html) in Föritz
 - [Hotel Kastanienhof](https://www.hotel.de/de/der-kastanienhof/hotel-335835/) in Neuhaus-Schierschnitz
+- [Gasthaus Fillweber](http://gasthaus-fillweber.de/) in Neukenroth/Stockheim
+
 
 
