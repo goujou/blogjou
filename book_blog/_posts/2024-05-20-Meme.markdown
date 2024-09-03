@@ -1,0 +1,9 @@
+---
+title: "What is a meme?"
+author: goujou
+date:   2024-05-20
+category: book_blog
+book_id: Gell-MannQuarkandJaguar
+page: 292
+---
+In fact, the English biologist Richard Dawkins coined the term "meme" to signify a unit of culturally transmitted information analogous to a gene in biological information.

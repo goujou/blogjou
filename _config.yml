@@ -80,13 +80,16 @@ header_pages:
     - title: PaperJou
       path: paper_blog/index.html
       category: paper_blog
-    - title: "Hochzeit"
+    - title: CookJou
+      path: cook_blog/index.html
+      category: cook_blog
+    - title: Hochzeit
       path: hochzeit/index.html
       category: hochzeit
-    - title: "Matrimonio"
+    - title: Boda
       path: boda/index.html
       category: boda
-    - title: "Wedding"
+    - title: Wedding
       path: wedding/index.html
       category: wedding
 #    - title: PrivateJou
@@ -126,6 +129,10 @@ defaults:
     values:
       category: "paper_blog"
       layout: "paper_blog_post"
+  - scope:
+      path: "cook_blog/*"
+    values:
+      category: "cook_blog"
   - scope:
       path: "hochzeit/*"
     values:

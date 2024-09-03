@@ -1,0 +1,42 @@
+---
+title: "Relevance of methodological choices for accounting of land use change carbon fluxes"
+date: 2024-05-02
+doi: 10.1002/2014GB004997
+author:
+    - Eberhard Hansis
+    - Steven J. Davis
+    - Julia Pongratz
+---
+## Abstract
+- Accounting of carbon fluxes from land-use and land-cover change (LULCC) involves a choice among multiple options, which grossly affect estimates:
+    - temporal evolution of C stocks
+    - initial state of C stocks
+    - temporal attribution of C fluxes
+    - treatment of LULCC fluxes that occurred prior to the period
+- new Bookkeeping of Land Use Emissions model (BLUE)
+
+## 1. Introduction
+- LULCC fluxes account for about 10% of current annual CO$_2$ emissions
+- geographical attribution important for policy (Kyoto protocol, UNFCCC)
+- flux needs to be modeled for it is not directly observable
+- net exchange between atmosphere and land $=$ residual from C stocks and fluxes from atmosphere and ocean
+- need models to split into natural and anthropogenic contributions
+- methodological choices to be made regarding delayed fluxes
+    - LULCC activity change relation between NPP and C decomposition on various timescales
+    - simplest approach: sustem before and after change assumed to be in equilibrium, even delayed fluxes assumed instantaneous (**committed fluxes**), common in relation with remote sensing
+    - distribute delayed fluxes uniformly over a certain time horizon: if future transitions can be foreseen, fluxes can be attributed to all of them
+    - physically more accurate: process-based (DGVMs) or bookkeeping models (BKMs)
+    - DGVMs do not attribute fluxes to individual LULCC because of computational constraints
+    - BKMs track area and type of LULCC and combine with empirical response curves - "**legacy scheme**": spatially and temporal explicit modeling of C stocks, taking succesion of LULCC events into account
+- policy may require "commitment periods"
+
+## 2. Methods
+
+### 2.1 BLUE model
+
+
+## My ideas
+- if commitment periods include or exclude C from LULCC events from some period, we compute this by taking C transit times into accout
+
+
+

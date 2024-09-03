@@ -1,0 +1,88 @@
+---
+title: "Tracking 21st century anthropogenic and natural carbon fluxes through model-data integration"
+date: 2024-04-30
+doi: 10.1038/s41467-022-32456-0
+author:
+    - Selma Bultan
+    - Julia E. M. S. Nabel
+    - Kerstin Hartung
+    - Raphael Ganzenmüller
+    - Liang Xu
+    - Sassan Saatchi
+    - Julia Pongratz
+---
+## Abstract
+- assimilate observation-based time series of woody vegetation carbon densities into bookkeeping model (BKM)
+- disentangle C fluxes from woody vegetation into anthropogenic and environmental contributions
+- data assimilation vastly improves BKM
+- global woody vegetation C sink is weaker and more suceptible to interannual variations and extrem events than estimated by other models
+- **model data integration** important
+
+## Introduction
+- the Global Carbon Project annually updates the Global Carbon Budget (GCB)
+- net land-atmosphere exchange of CO2 anthroppgenic fluxes from land use and land-use induced land cover change activities (LULCC) $+$ fluxes due to environmental processes = $E_{LUC} + S_{LAND}$
+- $E_{LUC}$ estimated with semi-empirical BKMs
+    - $\pm65\,\%$ uncertainty (for one standard deviation)
+        - different assumptions on amount of C contained per unit area (**C density**) contributes much to uncertainty
+        - based on contemporary C stocks, leads to error simulation the past (**bookkeeping error**)
+    - simulate emissions due to LULCC in absence of environmental fluxes by combining assumptions on amount of C contained in vegetation and soils and empirical decay functions
+- $S_{LAND}$ estimated with process based dynamic global vegetation models (DGVMs)
+    - $\pm19\,\%$
+        - different parametrizations
+        - whether and how vegetation and soil processes are captured (found from model intercomparison project **TRENDY**)
+    - account additionally (to BKM) for environmental effects on different C pools, simulate biogeochemical processes such as photosynthesis
+    - loss of additional sink capacity (**LASC**): larger forested areas unde rpre-industrial land cover allow more C accumulation under favorable conditions (elevated CO$_2$), DGVMs without LULCC do not correct for that
+- satellite data can reduce uncertainties, but comes with limitations
+    - only gross fluxes/sub-component fluxes
+    - difficult to distringuish anthropogenic from environmental fluxes
+    - restriction to **committed fluxes**: biomass loss considered flux, except when fate explicitly tracked (**legacy fluxes**)
+- **propose approach to overcome BKP and satellite limitations**
+    - decompose observed fluxes into $E_{LUC}$ and $S_{LAND}$
+    - based on time series of global woody vegetation C densities (2000-20019)
+    - time series assimilated into BKM BLUE (Bookkeeping of Land Use Emissions) model
+
+## Results
+
+### A model-data integration framework for separating anthropogenic and environmental carbon fluxes
+- $C_{B,trans} = $net effects of anthropogenic and environmeltal changes based on time series mention earlier
+- $C_{B,fixed} = $effects of anthropogenic changes based on Land Use Harmonization 2 (LUH2) dataset
+- $S_{LAND,B} = \Delta C_{B, trans} - \Delta C_{B,fixed}$
+    - should not be used to compute GCB, for instance litter, dead wood and soil dynamics are ignored; delayed fluxes happen here immediately (decomposition)
+    - no bookkeeping error after 2000
+
+### Anthropogenic effects (LULCC) on global woody vegetation carbon
+- transient run shows higher C stocks, probably because of effects of elevated CO$_2$
+- leads also to higher emissions caused by clearing and harvesting
+- such emsissions not outbalanced by higher C uptake
+- major land-use transitions in BLUE: clearing, harvest, abandonment
+
+### Environmental effects on global woody vegetation carbon
+- TRENDY simulations assume current CO$_2$ levels in the past and hence overestimate C biomass
+- interannual variabilty mainly due to environmental effects
+- $S_{LAND,B}$ shows smaller sink than TRENDY estimates
+- interannual variabbility (IAV) computed as coefficient of variation
+- strong positive correlation between annual mean air temperature anomaly and and annualt anomaly in forest biomass
+- eastern North America (NAM): air temperature and radioation limiting effects of growth, western NAM: precipitation and soil moisture
+- higher temperature also increase heterotrophic respiration, working agains ositive growth effect
+- DGVMs underestimate negative effects of drought on sink strength, often heat and water stress on plant productivity not modeled
+- forest degradation implicit in the data now, has strong effect
+
+## Discussion
+- integration of observation into models crucial
+- **budget imbalance** ($B_{\mathrm{IM}}$) is measure of uncertainty in estimated terms of GCB, describes difference between emissions and sinks on land, ocean, and atmosphere
+- atmospheric growth rate can ($G_{ATM}$) be estimated with confidence
+- natural C sinks on land and ocean uncertain
+- $S_{LAND}$ as sink should increase due to C fertilization and hence $B_{\mathrm{IM}}$ should increase, but it does not, hence $S_{LAND}$ probably not accurate
+- possible improvements:
+    - include non-woody vegetation C
+    - sub-annual time scales: capture intra-annual response to extreme events
+    - different measurements should be consistent in space and time
+
+## Methods
+...
+
+
+## My ideas
+- instead of computing correlations on model output data, try causal inference computations
+
+
