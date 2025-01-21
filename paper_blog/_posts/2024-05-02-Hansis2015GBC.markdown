@@ -36,10 +36,65 @@ author:
 ## 2. Methods
 
 ### 2.1 BLUE model
+- spatially explicit
+- tracks individual histories of successive LULCC events and their interactions in each grid cell
+- approach of cumulative excess C makes it computationally more efficient than splitting cells up into plots of land
+- able to track C fluxes by each year's LULCC events through time
+
+- $0.5°$ grid cells, goal is $0.1°$
+- track areas affected by LULCC events, combines with empirical C densities
+- **C densities** $=$ amount of C per ha for each land cover type
+- C transferred between pools (indlucing porudct pools and atmosphere) based on prescribed fractions
+- **excess pool** $=$ current C stock $-$ equilibrium C stock, change with successive LULCC events
+- relaxation fluxes proportional to excess pool: exponential response curve (decay or regrowth) approach, makes summing up of results from different events straightforward and allows backward computation of LULCC events responsible for fluxes
+
+- Do we have $4\times4\times8\times11$ (cover type $\times$ transition type $\times$ pool type $\times$ plant functional type) pools for each grid cell?
+- By LULCC transition affected cover types and plant functional types are prescribed.
+- The current LULCC transition data set does not specify history of subgrid areas.
+  - Hence: *The BLUE modeling approach corresponds to distributing each new LULCC event proportionally by area across the different histories present in the cell.*
+ 
+- To attribute present fluxes to previous transition years, a "temporal accounting" layer tracks on per-country basis (spatially ecplicit too memory intensive).
+  - Excess C caused by LULCC events stored per pool per country
+  - Resulting C fluxes computed by exponential response curves.
+ 
+- Emissions attributed to an event depend on previous events (or legacy C) by impact of C stock at the time of the event, and future events by impact on relaxation curve.
+
+### 2.2 Input Data
+- [LULCC transition data set](https://d1wqtxts1xzle7.cloudfront.net/43677496/Harmonization_of_Global_Land-Use_Scenari20160313-26388-awli6r-libre.pdf?1457861205=&response-content-disposition=inline%3B+filename%3DHarmonization_of_global_land_use_scenari.pdf&Expires=1737477605&Signature=WX0gw~BXqlre7pakHDv~diUIIIkKp8V845jy9hwTuKJ2IiohTC4FKek9F7Jz5fA980T6xdtcXX4s~0pTTR0p-bKPzYDR6QoDLC6xNGt0wjMXTPaBBbtkVueA7FrSr~BdFzKG38quhydmDzmkc8Y2ZxdAgNtCMFa5no9pSMHQlnsaKK~3iD~8TOq9flqcC3NX5uNB7RGozmPaWytyT3Qq6EIQkU3vwCHUj9FxVUa6QTvNjOGHQixV4AZIBAq6A9q8rJ7C1GnKtixTmq4Yp~7mGacjCeRG4ERDW-9PaXOc3bW7Fvm-OJ3i56xNdKLbTT16Replz5LigF0F7Y41-FpJJg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+  - provides information on sub-grid scale on transitions between primary land, secondary land, cropland, and pasture
+    - **primary land**: land not under active use at the start of historical reconstruction
+    - **secondary land**: land affected by LULCC at some point in the past, not allowed to return to primary land
+  - additional sub-grid transitions
+    - shifting cultivation (**gross transitions**)
+    - wood harvest with information on amount of harvested wood
+  - for the years 1500 to 2004 (end)
+- [Updated version](https://essd.copernicus.org/articles/7/47/2015/)
+  - unreasonable differences to previous version from 1500 to 2014
+  - hence only used from 2005 to 2012
+- LULCC transition overlain by [map of potential natural vegetation](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007GB003153)
+  - goal: split natural land (primary and secondary land) into plant functional types
+  - to allocate cropland and pasture within a grid cell, we proportionally reduce all exiisting natural plant functional types
+- each plant functional type associated with two types of parameters:
+  - C stock densities for different land types
+  - response curves after transitions: [original curves](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1942531) were picewise linear, we approximate them exponentially for efficient summation of different histories
+
+### 2.3 Simulations
+- eight different accounting schemes (#1 through #8) based on three model runs and different post processing approaches
+
+#### 2.3.1 Model Runs
+- instant C stock changes to new eqilibrium: #6, #7, #8
+- legacy scheme:
+  - realistic values from spinup since 1500: #1, #2, #3
+  - spinup from 1500 and purge all legacy C in 2007 to assume equilibrium values at start of accounting period: #4, #5
+
+#### 2.3.2 Data Postprocessing - Legacy Model Runs
 
 ## Questions
 - What exactly is a **committed flux**?
   - Even actually delayed fluxes are *committed* to the moment of the LULCC event taking place, for the sake of simplicity.
+- Do we have $4\times4\times8\times11$ (cover type $\times$ transition type $\times$ pool type $\times$ plant functional type) pools for each grid cell?
+- How exactly are the equilibria defined? Are they defined differently in a legacy scheme from a non-legacy scheme or do they depend solely on cover type, pool type, and plant functional type?
+- In Fig. 2, why do the yellow dots not coincidw with the end of the solid yellow curves? Or do they in Fig. 2b) but not in 2c) and 2d)?
 
 ## My ideas
 - if commitment periods include or exclude C from LULCC events from some period, we compute this by taking C transit times into accout
