@@ -12,8 +12,9 @@ author:
     - temporal evolution of C stocks
     - initial state of C stocks
     - temporal attribution of C fluxes
-    - treatment of LULCC fluxes that occurred prior to the period
+    - treatment of LULCC fluxes that occurred prior to the simulation period
 - new Bookkeeping of Land Use Emissions model (BLUE)
+- quantify LULCC fluxes and atribute them to land use activities and countries
 
 ## 1. Introduction
 - LULCC fluxes account for about 10% of current annual CO$_2$ emissions
@@ -23,20 +24,30 @@ author:
 - need models to split into natural and anthropogenic contributions
 - methodological choices to be made regarding delayed fluxes
     - LULCC activity change relation between NPP and C decomposition on various timescales
-    - simplest approach: sustem before and after change assumed to be in equilibrium, even delayed fluxes assumed instantaneous (**committed fluxes**), common in relation with remote sensing
+    - simplest approach: system before and after change assumed to be in equilibrium, even delayed fluxes assumed instantaneous (**committed fluxes**), common in relation with remote sensing
     - distribute delayed fluxes uniformly over a certain time horizon: if future transitions can be foreseen, fluxes can be attributed to all of them
     - physically more accurate: process-based (DGVMs) or bookkeeping models (BKMs)
     - DGVMs do not attribute fluxes to individual LULCC because of computational constraints
-    - BKMs track area and type of LULCC and combine with empirical response curves - "**legacy scheme**": spatially and temporal explicit modeling of C stocks, taking succesion of LULCC events into account
+    - BKMs track area and type of LULCC and combine with empirical response curves - "**legacy scheme**": spatially and temporally explicit modeling of C stocks, taking succesion of LULCC events into account
 - policy may require "commitment periods"
+- problem of initializing stocks, as usual
+- BLUE allows systematic comparison of effects of different conceptual choices with one and the samle model
 
 ## 2. Methods
 
 ### 2.1 BLUE model
 
+## Questions
+- What exactly is a **committed flux**?
+  - Even actually delayed fluxes are *committed* to the moment of the LULCC event taking place, for the sake of simplicity.
 
 ## My ideas
 - if commitment periods include or exclude C from LULCC events from some period, we compute this by taking C transit times into accout
+- *However, the current generation of dynamic global vegetation models does not allow for attributing the resulting carbon fluxes to an individual LULCC event because of computational constraints.*
+  - We did something similar in the PNAS paper with fossil fuels by extracting a "fossil-fuel only" system based on the state transition operator of the entire system (the linearized trajectory). Could this be applied?
+  - Maybe prepare a short presentation on the state transition operator and its several shapes in one dimension, in autonomous systems, and so on. And then throw it to the fossil fuels and ask if this can be done with LULCC fluxes too.
+  - Practically, we might not be able to reproduce the state transition operator because of a lack of precise mathematical compartmental model formulation. This was the exact reason for me to build BFCPM.
+  - **But then Carlos' idea of reproducing a "best possible" state transition operator from known stocks and fluxes comes into the game!**
 
 
 
