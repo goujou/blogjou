@@ -88,6 +88,119 @@ author:
   - spinup from 1500 and purge all legacy C in 2007 to assume equilibrium values at start of accounting period: #4, #5
 
 #### 2.3.2 Data Postprocessing - Legacy Model Runs
+- direct model output, attribute C fluxes to each year that really occur in this year: #1, #2, #4
+- attribute *committed fluxes*: add extra year at end of simulation with immediate fluxes: #3, #5
+  - this way, no flux C is lost due to premature simulation end
+- final choice: include (#1) or exclude (#2) emissions from prior to the accounting period
+  - not relevant in case of equlibrium C stocks at beginning of accounting period
+  - for committed emissions, prior LULCC events are naturally excluded
+- #1: considered most natural (default)
+  - historical C stock values
+  - simulated temporal emissions
+  - includes effects from LULCC events prior to accounting period
+
+#### 2.3.3 Data Postprocessing - Model Runs with Instantaneous Transitions
+- by definition equilibrium at beginning of accounting period
+- instantaneous attribution of fluxes (#6)
+- uniform flux distribution over 30 years, include (#7) or exclude (#8) fluxes from LULCC events prior to accounting method
+  - uniform distribution computed by shifted boxcar filter
+
+#### 2.3.4 Additional Model Runs
+- estimate influence of net vs gross transitions
+  - net (instead of gross) transitions computed from LULCC transition data set
+    - clearing and abandonment accounted against each other
+- analysis of interprocess dependencies
+  - switched off all harvest transitions
+  - comparison with default run shows effect of harvest for other LULCC activity fluxes
+
+### 2.4 Summary of the Eight Accounting Methods
+- #1 (default):
+  - used in annual CO$_2$ budget estimates
+  - most common approach to determine net LULCC flux in process-based models
+  - UNFCCC approach for accountability of forest management activities
+- #2:
+  - no fluxes from LULCC events prior to accounting period
+  - can be used to illustrate importance of starting dates
+- #3:
+  - not used in literature
+  - could be used to extend #6 by effects of known LULCC events within given time span
+- #4: 
+  - reset to equilibrium at beginning of accounting period
+  - often been used in combination with remote sensing data
+    - available only for recent period of time
+    - prescribe equilibrium in vegetation at beginning
+- #5:
+  - quantifies committed emissions from #4
+  - computed from #4 like #3 from #1
+  - not used in literature
+- #6:
+  - simplest schemes in terms of input data and methodological complexity
+  - equilibrium starting stocks, instantaneous new states, committed fluxes
+  - very often used to estimate net LULLCC flux
+- #7:
+  - with more realistic curves (instead of uniform distribution) been used in earlier studies
+- #8:
+  - second simplest model after #6, one additional parameter: time horizon (30 years)
+  - used to account for foreseeable successive LULCC types
+- product carbon footprint standards suggest #7 or #8 (depending on data availability) 
+
+## 3. Evaluation of Simulated Carbon Stocks and fluxes
+- **net LULCC flux is the most uncertain component in the global C budget**
+- 2002-2012 about 0.8 PgC/yr $\pm 0.5$ PgC
+- BLUE: 1.2 Pgc/yr
+- BLUE: C uptake following abandonmends compensates (**new: only**) for half of emissions from clearing and wood harvest
+- generally high estimates:
+  - no neglection of subgrid-scale gross transitions or wood harvests
+    - if other studies with lower estimates included those, they might come up with even higher estimates than BLUE
+  - carbon densities relatively high on chosen data set
+  - unconditional scaling down of PFTs to simulate PFT mixtures within grids; some studies use conditions which lead to reduced emissions
+- gross LULCC transitions (on sub-grid scale) effect more land than onlt net transitions
+- main effect of gross transitions is not lower C densities but more primary land is transformed to secondary land
+
+## 4. Relevance of Methodological Choices for LULCC Carbon Flux Accounting
+- four methodological choices:
+  - simulating the temporal evolution of C stocks
+  - initial state of C stocks
+  - temporal attribution of C stocks
+  - accounting for LULCC prior to accounting period
+- vast differences in temporal evolution of net LULCC flux and cumulative emissions on five-year accounting period (2008-2012)
+  - from 4.3 PgC upttake to 15.2 PgC release
+
+### 4.1 Temporal Evolution of Carbon Stocks
+- compare methods #5 and #6
+  - #5: successive LULCC events influence each other's C stock response by redistributing C flux potentials
+  - #6: successive LULCC events are independent of each other
+  - start with same stock and end with same net cumulative emissions
+  - paths, however, are very different in early and late stages
+
+### 4.2 Initial State of Carbon Stocks
+- transient results in vegetation much lower (at beginning of accounting period) than equlibrium values, in soil comparable
+- lower stocks lead to lower emissions from clearing
+
+### 4.3 Temporal Attribution of Emissions
+- commited-flux approach much better constrained by actual observational data
+- more realistic temporal response needs more parameters and simulations
+- different intended uses: committed fluxes intend to compare overall impact of different LULCC with each other and with other human activities such as burning fossil fuels
+- asymmetry in timescales of regrowth and decomposition, regrowth much slower
+- committed fluxes much more inaccurate with respect to uptake (too optimistic): lower net emissions
+- cumulative emissions of #6 and #7 are similar by coincidence
+
+### 4.4 Accounting for Fluxes from LULCC Events Prior to the Accounting Period
+- political considerations (UNFCCC) often require attribution to LULCC events, hence ignorance of what happened earlier
+- global carbon budget attributes to actual year of emission, hence needs to include effects of earlier events
+- since uptake takes more time than emission, more uptake plays into the accounting time when earlier effects are included
+- instantaneous approaches are highly sensitive to the considered time frame
+
+## 5. Summary and Conclusion
+- computationall efficient estimation of LULCC fluxes
+- accounts for gross transitions (important for sub-grid scale LULCC), includes wood harvest, has temporal accounting layer
+- resulting net emissions at high end of previos studies, but within published range
+- comparing 8 methods based on 4 methodological choices, first time within a consistent framework
+- Kyoto protocol accounting period of 5 years
+- net LULCC flux highly sensitive to methodological choices (-4 to +15 PgC in 5 years)
+- substantially different temporal evolution of fluxes
+- which methods to choose depends on a study's purpose
+
 
 ## Questions
 - What exactly is a **committed flux**?
@@ -95,6 +208,9 @@ author:
 - Do we have $4\times4\times8\times11$ (cover type $\times$ transition type $\times$ pool type $\times$ plant functional type) pools for each grid cell?
 - How exactly are the equilibria defined? Are they defined differently in a legacy scheme from a non-legacy scheme or do they depend solely on cover type, pool type, and plant functional type?
 - In Fig. 2, why do the yellow dots not coincidw with the end of the solid yellow curves? Or do they in Fig. 2b) but not in 2c) and 2d)?
+- What is a **shifted boxcar filter**?
+- What is **product carbon footprint standards**?
+- **Can we just run the default #1 and compute the different accountings (to year of LULCC directly or to actual year of emission) from there in a post-processing step?** To me it seems, some methodological questionable decisions impact not only the accounting directly but also very much indirectly by altering the future of the simulation in a nonsensical way.
 
 ## My ideas
 - if commitment periods include or exclude C from LULCC events from some period, we compute this by taking C transit times into accout
