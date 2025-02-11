@@ -9,3 +9,5 @@ private_blog
 *.swp
 *.lock
 .bundle
+.obsidian/**
+.ipynb_checkpoints/**
