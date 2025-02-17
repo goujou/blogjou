@@ -1,1 +1,21 @@
+# install
+# https://jekyllrb.com/docs/installation/ubuntu/
+sudo apt-get install ruby-full build-essential zlib1g-dev
+
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+gem install jekyll bundler
+
+# patch for Ruby 3
+gem uninstall jekyll
+gem install jekyll --version '3.9.0'
+#gem install sass-embedded -v 1.54
+#sudo sed -i.bak 's/, kwd/, **kwd/' $(gem which pathutil)
+#bundle add webrick
+# bundle install
+
+# run
 bundle exec jekyll serve
