@@ -19,3 +19,6 @@ gem install jekyll --version '3.9.0'
 
 # run
 bundle exec jekyll serve
+
+# run with automatic reload
+bundle exec jekyll serve --force_polling --livereload
