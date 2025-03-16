@@ -5,6 +5,7 @@ author: goujou
 date:   2024-09-03
 ---
 ## Ingredientes
+
 - verduras para sopa (2 zanahorias, 1 ramo de perejil, poro, 1/2 apio)
 - 2 ó 3 cebollas
 - 500g tocino
