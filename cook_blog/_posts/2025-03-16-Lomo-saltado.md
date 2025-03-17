@@ -22,4 +22,4 @@ Cut the beef in cubes, season it with salt, pepper and the garlic. Then, in a pa
 
 Also, put in the oven the French fries. Set the oven to 220° C for around 20 minutes.
 
-Now it is ready to be served with the French fires and white rice!
+Now it is ready to be served with the French fries and white rice!
